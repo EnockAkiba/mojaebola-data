@@ -1,0 +1,98 @@
+{
+    "RED_ZONES": [
+        {
+            "lat": 1.8534,
+            "lng": 30.0419,
+            "radius": 9000,
+            "label": "🔴 Mongbwalu — Épicentre (Ituri)"
+        },
+        {
+            "lat": 1.72,
+            "lng": 30.07,
+            "radius": 7000,
+            "label": "🔴 Rwampara — Cas confirmés (Ituri)"
+        },
+        {
+            "lat": 1.5641,
+            "lng": 30.1914,
+            "radius": 10000,
+            "label": "🔴 Bunia — Zone rouge (Ituri)"
+        },
+        {
+            "lat": -1.6596,
+            "lng": 29.2194,
+            "radius": 8000,
+            "label": "🔴 Goma — Cas confirmé (Nord-Kivu)"
+        },
+        {
+            "lat": -0.1336,
+            "lng": 29.2438,
+            "radius": 6000,
+            "label": "🔴 Butembo — Cas suspects (Nord-Kivu)"
+        },
+        {
+            "lat": -2.5067,
+            "lng": 28.86,
+            "radius": 7000,
+            "label": "🔴 Bukavu — Cas importé (Sud-Kivu)"
+        }
+    ],
+    "ORANGE_ZONES": [
+        {
+            "lat": 1.95,
+            "lng": 30.3,
+            "radius": 12000,
+            "label": "🟠 Djugu — Zone sous surveillance (Ituri)"
+        },
+        {
+            "lat": 1.3,
+            "lng": 30.5,
+            "radius": 8000,
+            "label": "🟠 Iga Barrière — Zone orange (Ituri)"
+        },
+        {
+            "lat": 0.058,
+            "lng": 29.4607,
+            "radius": 9000,
+            "label": "🟠 Lubero — Surveillance (Nord-Kivu)"
+        },
+        {
+            "lat": -1.94,
+            "lng": 29.0,
+            "radius": 7000,
+            "label": "🟠 Masisi — Surveillance (Nord-Kivu)"
+        },
+        {
+            "lat": 0.3136,
+            "lng": 32.5811,
+            "radius": 15000,
+            "label": "🟠 Kampala — 9 cas confirmés (Ouganda)"
+        }
+    ],
+    "HEALTH_CENTERS": [
+        {
+            "lat": 1.5641,
+            "lng": 30.1914,
+            "label": "CTE Bunia",
+            "tel": "08214419595"
+        },
+        {
+            "lat": -1.6596,
+            "lng": 29.2194,
+            "label": "CTE Goma",
+            "tel": "08214419595"
+        },
+        {
+            "lat": -0.1336,
+            "lng": 29.2438,
+            "label": "CTE Butembo",
+            "tel": "08214419595"
+        },
+        {
+            "lat": -2.5067,
+            "lng": 28.86,
+            "label": "CTE Bukavu",
+            "tel": "08214419595"
+        }
+    ]
+}

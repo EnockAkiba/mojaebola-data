@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "lastUpdate": "2026-06-02",
+  "provenance": "Les informations affichées dans cette application sont basées sur des sources officielles : OMS et CDC. Elles sont récupérées depuis le dépôt GitHub MojaEbola-data et mises en cache localement pour fonctionner hors ligne, afin de prouver à Google Play que les données sont authentiques.",
+  "sources": [
+    {
+      "name": "Organisation mondiale de la Santé (OMS)",
+      "url": "https://www.who.int"
+    },
+    {
+      "name": "Fiche d'information Ebola de l'OMS",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease"
+    },
+    {
+      "name": "Centers for Disease Control and Prevention (CDC)",
+      "url": "https://www.cdc.gov/ebola"
+    }
+  ],
+  "author": {
+    "name": "Enock",
+    "role": "Développeur de l'application",
+    "bio": "Je développe cette application pour aider les communautés à accéder rapidement à des informations de santé et à signaler des cas critiques.",
+    "note": "Tu peux modifier mon nom, mon rôle ou ce message dans le fichier JSON pour personnaliser la page À propos.",
+    "changeHint": "Change ces informations dans src/data/about.json pour mettre à jour la page sans modifier le code.",
+    "editableFields": ["name", "role", "bio", "note"]
+  },
+  "contact": "enock@example.com"
+}

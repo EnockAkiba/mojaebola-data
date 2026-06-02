@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "CTE Bunia",
+    "city": "Bunia",
+    "address": "Avenue Kindu, Bunia",
+    "latitude": 1.5641,
+    "longitude": 30.1914,
+    "phone": "+243000000",
+    "open": true
+  },
+  {
+    "id": "2",
+    "name": "CTE Goma",
+    "city": "Goma",
+    "address": "Quartier Himbi, Goma",
+    "latitude": -1.6596,
+    "longitude": 29.2194,
+    "phone": "+243000000",
+    "open": true
+  },
+  {
+    "id": "3",
+    "name": "Hôpital Général Bunia",
+    "city": "Bunia",
+    "address": "Avenue de l'Hôpital",
+    "latitude": 1.558,
+    "longitude": 30.185,
+    "phone": "+243000000",
+    "open": false
+  }
+]

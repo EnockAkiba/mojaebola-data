@@ -1,0 +1,69 @@
+Voici le fichier converti et structuré au format **JSON** valide, incluant le tableau des options de langue ainsi que l'objet complet des traductions (FR, SW, LG).
+
+```json
+{
+  "languageOptions": ["FR", "SW", "LG"],
+  "translations": {
+    "FR": {
+      "welcome": "Système de surveillance",
+      "appTitle": "Ebola Surveillance",
+      "heroDescription": "Plateforme de riposte Ebola pour la surveillance, le signalement et la sensibilisation communautaire.",
+      "alert": "ALERTE",
+      "epidemicTitle": "Épidémie active dans votre région",
+      "epidemicDescription": "Contactez immédiatement les services sanitaires en cas de symptômes.",
+      "call": "Appeler le numéro vert",
+      "services": "Services disponibles",
+      "servicesDescription": "Accès rapide aux fonctionnalités principales",
+      "healthAgent": "Vous êtes un agent de santé ?",
+      "report": "Signaler un cas",
+      "reportDesc": "Déclarer rapidement un patient suspect",
+      "risk": "Zones à risque",
+      "riskDesc": "Consulter les zones sensibles",
+      "info": "Informations",
+      "infoDesc": "Protocoles et mesures sanitaires",
+      "centers": "Centres de soins",
+      "centersDesc": "Trouver un centre proche"
+    },
+    "SW": {
+      "welcome": "Mfumo wa ufuatiliaji",
+      "appTitle": "Ufuatiliaji wa Ebola",
+      "heroDescription": "Jukwaa la kukabiliana na Ebola kwa ufuatiliaji, taarifa na elimu kwa jamii.",
+      "alert": "TAHADHARI",
+      "epidemicTitle": "Mlupuko unaendelea katika eneo lako",
+      "epidemicDescription": "Wasiliana mara moja na huduma za afya ukiwa na dalili.",
+      "call": "Piga simu ya dharura",
+      "services": "Huduma zinazopatikana",
+      "servicesDescription": "Ufikiaji wa haraka wa huduma muhimu",
+      "healthAgent": "Je, wewe ni mhudumu wa afya?",
+      "report": "Ripoti kesi",
+      "reportDesc": "Toa taarifa ya mgonjwa anayeshukiwa",
+      "risk": "Maeneo hatarishi",
+      "riskDesc": "Angalia maeneo yenye hatari",
+      "info": "Taarifa",
+      "infoDesc": "Kanuni na hatua za afya",
+      "centers": "Vituo vya matibabu",
+      "centersDesc": "Tafuta kituo kilicho karibu"
+    },
+    "LG": {
+      "welcome": "Système ya surveillance",
+      "appTitle": "Surveillance Ebola",
+      "heroDescription": "Plateforme ya kolandela Ebola mpo na surveillance, signalement mpe sensibilisation.",
+      "alert": "ALERTE",
+      "epidemicTitle": "Epidémie ezali na région na bino",
+      "epidemicDescription": "Benga ba services sanitaires mbala moko soki ozali na ba symptômes.",
+      "call": "Benga numéro vert",
+      "services": "Ba services disponibles",
+      "servicesDescription": "Accès rapide na fonctionnalités principales",
+      "healthAgent": "Ozali agent ya santé ?",
+      "report": "Signaler cas",
+      "reportDesc": "Déclarer malade suspect rapidement",
+      "risk": "Zones à risque",
+      "riskDesc": "Tala ba zones sensibles",
+      "info": "Informations",
+      "infoDesc": "Mesures sanitaires mpe protocoles",
+      "centers": "Centres de soins",
+      "centersDesc": "Chercher centre proche"
+    }
+  }
+}
+
