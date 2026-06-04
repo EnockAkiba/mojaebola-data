@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import {
   Dimensions,
   FlatList,
@@ -15,44 +15,19 @@ import Animated, { FadeInDown } from 'react-native-reanimated';
 import Ionicons from '@react-native-vector-icons/ionicons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { getData } from '../../services/dataService';
+import { emit } from '../../utils/eventBus';
 
 import { DarkTheme, LightTheme } from '../../config/Theme';
 
 const { width } = Dimensions.get('window');
 
-const slides = [
-  {
-    id: '1',
-    title: 'Bienvenue sur MojaEbola',
-    description:
-      'Signalez rapidement les cas suspects, protégez votre famille et participez à la lutte contre Ebola dans votre communauté.',
-    image: require('../../assets/images/drapeauEbola.webp'),
-    color: '#D64545',
-    icon: 'shield-checkmark',
-  },
-  {
-    id: '2',
-    title: 'Surveillez les zones à risque',
-    description:
-      'Consultez les alertes sanitaires, les zones affectées et les centres Ebola proches de vous en temps réel.',
-    image: require('../../assets/images/ZoneRisque.png'),
-    color: '#F39C12',
-    icon: 'map',
-  },
-  {
-    id: '3',
-    title: 'Informez et protégez votre communauté',
-    description:
-      'Découvrez les gestes essentiels, les mesures de prévention et les numéros d’urgence pour sauver des vies.',
-    image: require('../../assets/images/Sensibilisation.jpg'),
-    color: '#16A085',
-    icon: 'medkit',
-  },
-];
 
-export default function OnboardingScreen({  }) {
+
+export default function OnboardingScreen({ }) {
   const flatListRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [slidesData, setSlidesData] = useState([]);
 
   const scheme = useColorScheme();
   const theme = scheme === 'dark' ? DarkTheme : LightTheme;
@@ -60,10 +35,45 @@ export default function OnboardingScreen({  }) {
   const finishOnboarding = async () => {
     console.log("Fin de l'onboarding, stockage de l'info...");
     await AsyncStorage.setItem('hasSeenOnboarding', 'true');
+    // notify app so RootNavigator can update immediately
+    emit('onboardingSeen', true);
   };
 
+  useEffect(() => {
+    let mounted = true;
+
+    const IMAGES = {
+      'assets/images/drapeauEbola.webp': require('../../assets/images/drapeauEbola.webp'),
+      'assets/images/ZoneRisque.png': require('../../assets/images/ZoneRisque.png'),
+      'assets/images/Sensibilisation.jpg': require('../../assets/images/Sensibilisation.jpg'),
+    };
+
+    (async () => {
+      try {
+        const data = await getData('onBoarding');
+        if (!mounted) return;
+
+        if (Array.isArray(data)) {
+          const mapped = data.map((item) => ({
+            ...item,
+            image: IMAGES[item.image] ?? IMAGES['assets/images/drapeauEbola.webp'],
+          }));
+          setSlidesData(mapped);
+        } else {
+          setSlidesData([]);
+        }
+      } catch (e) {
+        console.log('Erreur chargement onboarding :', e);
+      }
+    })();
+
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   const handleNext = async () => {
-    if (currentIndex < slides.length - 1) {
+    if (currentIndex < slidesData.length - 1) {
       flatListRef.current?.scrollToIndex({
         index: currentIndex + 1,
       });
@@ -117,8 +127,11 @@ export default function OnboardingScreen({  }) {
         horizontal
         pagingEnabled
         showsHorizontalScrollIndicator={false}
-        data={slides}
+        data={slidesData}
         keyExtractor={(item) => item.id}
+        initialNumToRender={3}
+        windowSize={3}
+        removeClippedSubviews={false}
         renderItem={renderItem}
         onMomentumScrollEnd={(event) => {
           const index = Math.round(event.nativeEvent.contentOffset.x / width);
@@ -128,7 +141,7 @@ export default function OnboardingScreen({  }) {
 
       <View style={styles.footer}>
         <View style={styles.pagination}>
-          {slides.map((_, index) => (
+          {slidesData.map((_, index) => (
             <View
               key={index}
               style={[
@@ -144,7 +157,7 @@ export default function OnboardingScreen({  }) {
 
         <TouchableOpacity style={styles.button} onPress={handleNext}>
           <Text style={styles.buttonText}>
-            {currentIndex === slides.length - 1 ? 'Commencer' : 'Suivant'}
+            {currentIndex === slidesData.length - 1 ? 'Commencer' : 'Suivant'}
           </Text>
           <Ionicons name="arrow-forward" size={18} color="#fff" />
         </TouchableOpacity>

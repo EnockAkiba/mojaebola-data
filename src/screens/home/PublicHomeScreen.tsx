@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
-  Alert, Linking, Pressable, ScrollView, StatusBar,
+  Alert, Image, Linking, Modal, Pressable, ScrollView, StatusBar,
   StyleSheet, Text, TouchableOpacity, useColorScheme, View,
 } from 'react-native';
 import Ionicons from '@react-native-vector-icons/ionicons';
@@ -29,7 +29,7 @@ const languageOptions = [
 ];
 
 function openEmergencyLine() {
-  Linking.openURL('tel:08214419595').catch(() =>
+  Linking.openURL('tel:0821419595').catch(() =>
     Alert.alert('Erreur', "Impossible d'effectuer l'appel.")
   );
 }
@@ -38,6 +38,7 @@ export default function PublicHomeScreen({ navigation }: PublicHomeScreenProps) 
   const [language, setLanguage] = useState('FR');
   const [translationsData, setTranslationsData] = useState<Record<string, any> | null>(null);
   const [error, setError] = useState(false); // ✅ gestion d'erreur
+  const [showDevModal, setShowDevModal] = useState(false);
   const scheme = useColorScheme();
   const theme = scheme === 'dark' ? DarkTheme : LightTheme;
 
@@ -68,7 +69,10 @@ export default function PublicHomeScreen({ navigation }: PublicHomeScreenProps) 
     { key: 'ctes',   title: t.centers, subtitle: t.centersDesc, color: '#16A085', icon: 'medkit', screen: 'CTEScreen' },
   ], [t]);
 
-  const handleNavigate = (screen: string) => navigation?.navigate?.(screen);
+  const handleNavigate = (screen: string) => {
+    // Afficher le modal pour les fonctionnalités en développement
+    setShowDevModal(true);
+  };
 
   // ✅ écran d'erreur
   if (error) {
@@ -178,6 +182,48 @@ export default function PublicHomeScreen({ navigation }: PublicHomeScreenProps) 
         </View>
 
       </ScrollView>
+
+      {/* MODAL DÉVELOPPEMENT EN COURS */}
+      <Modal
+        visible={showDevModal}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setShowDevModal(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={[styles.modalContent, { backgroundColor: theme.colors.card }]}>
+            {/* LOGO MOJATECH */}
+            <View style={styles.modalIconContainer}>
+              <Image 
+                source={require('../../assets/images/mtlogo.png')} 
+                style={styles.modalLogo}
+                resizeMode="contain"
+              />
+            </View>
+
+            {/* TITRE */}
+            <Text style={[styles.modalTitle, { color: theme.colors.text }]}>
+              En cours de développement
+            </Text>
+
+            {/* DESCRIPTION */}
+            <Text style={[styles.modalDescription, { color: theme.colors.subText }]}>
+              Cette fonctionnalité sera disponible prochainement. Nous travaillons dur pour vous offrir la meilleure expérience.
+            </Text>
+
+            {/* BOUTON FERMER */}
+            <Pressable
+              onPress={() => setShowDevModal(false)}
+              style={({ pressed }) => [
+                styles.modalButton,
+                { backgroundColor: theme.colors.primary || '#2980B9', opacity: pressed ? 0.8 : 1 }
+              ]}
+            >
+              <Text style={styles.modalButtonText}>Compris</Text>
+            </Pressable>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -387,5 +433,80 @@ const styles = StyleSheet.create({
   footerText: {
     color: '#9CA3AF',
     fontSize: 12,
+  },
+
+  // MODAL STYLES
+  modalOverlay: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    paddingHorizontal: 20,
+  },
+
+  modalContent: {
+    width: '100%',
+    maxWidth: 380,
+    borderRadius: 32,
+    paddingHorizontal: 28,
+    paddingTop: 36,
+    paddingBottom: 28,
+    alignItems: 'center',
+    elevation: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 12 },
+    shadowOpacity: 0.35,
+    shadowRadius: 16,
+  },
+
+  modalIconContainer: {
+    width: 90,
+    height: 90,
+    borderRadius: 45,
+    backgroundColor: 'rgba(41, 128, 185, 0.12)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 28,
+  },
+
+  modalLogo: {
+    width: 70,
+    height: 70,
+  },
+
+  modalTitle: {
+    fontSize: 24,
+    fontWeight: '900',
+    marginBottom: 16,
+    textAlign: 'center',
+    letterSpacing: 0.3,
+  },
+
+  modalDescription: {
+    fontSize: 15,
+    lineHeight: 26,
+    textAlign: 'center',
+    marginBottom: 36,
+  },
+
+  modalButton: {
+    paddingHorizontal: 40,
+    paddingVertical: 16,
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    elevation: 6,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+  },
+
+  modalButtonText: {
+    color: '#FFFFFF',
+    fontSize: 17,
+    fontWeight: '900',
+    letterSpacing: 0.2,
   },
 });

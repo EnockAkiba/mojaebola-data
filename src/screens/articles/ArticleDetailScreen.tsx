@@ -137,9 +137,9 @@ export default function ArticleDetailScreen({ route, navigation }: any) {
           </View>
           <TouchableOpacity
             style={[styles.ctaButton, { backgroundColor: article.color }]}
-            onPress={() => Linking.openURL('tel:08214419595')}
+            onPress={() => Linking.openURL('tel:0821419595')}
           >
-            <Text style={styles.ctaButtonText}>08214419595</Text>
+            <Text style={styles.ctaButtonText}>0821419595</Text>
           </TouchableOpacity>
         </View>
 

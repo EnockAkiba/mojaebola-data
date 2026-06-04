@@ -41,7 +41,7 @@ function generateMapHTML(redZones = [], orangeZones = [], healthCenters = []): s
 </head>
 <body>
   <div id="map"></div>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"><\\/script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
 
     var map = L.map('map', { zoomControl: false }).setView([0.5, 29.8], 7);
@@ -118,7 +118,7 @@ function generateMapHTML(redZones = [], orangeZones = [], healthCenters = []): s
       map.setView([lat, lng], 13);
     }
 
-  <\\/script>
+  </script>
 </body>
 </html>
 `;
@@ -132,23 +132,35 @@ export default function RiskZonesScreen({ navigation }: any) {
 
   const [loadingMap, setLoadingMap] = useState(true);
   const [loadingData, setLoadingData] = useState(true);
+  const [webViewLoaded, setWebViewLoaded] = useState(false);
+  const [webViewError, setWebViewError] = useState<string | null>(null);
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [zonesData, setZonesData] = useState<any>(null);
+  const [statsData, setStatsData] = useState<any>(null);
   const webViewRef = React.useRef<any>(null);
 
-  // Charger les zones de risque
+  // Charger les zones de risque et les statistiques associées
   useEffect(() => {
-    const loadZones = async () => {
+    const loadData = async () => {
       try {
-        const data = await getData('zonesRisque');
-        setZonesData(data);
+        const [zones, stats] = await Promise.all([
+          getData('zonesRisque'),
+          getData('riskStats'),
+        ]);
+
+        setZonesData(zones);
+        setStatsData(stats);
+        console.log('[RiskZones] données chargées:', {
+          zones: zones && Object.keys(zones).length ? 'ok' : 'vide',
+          stats: stats && Object.keys(stats).length ? 'ok' : 'vide',
+        });
       } catch (error) {
-        console.log('Erreur chargement zones:', error);
+        console.log('Erreur chargement zones/statistiques:', error);
       } finally {
         setLoadingData(false);
       }
     };
-    loadZones();
+    loadData();
   }, []);
 
   // Générer le HTML avec les données chargées
@@ -160,6 +172,11 @@ export default function RiskZonesScreen({ navigation }: any) {
       zonesData.HEALTH_CENTERS || []
     );
   }, [zonesData]);
+
+  useEffect(() => {
+    console.log('[RiskZones] zonesData change —', zonesData ? Object.keys(zonesData) : zonesData);
+    console.log('[RiskZones] mapHTML length:', mapHTML ? mapHTML.length : 0);
+  }, [zonesData, mapHTML]);
 
   const handleMessage = (event: any) => {
     try {
@@ -195,7 +212,23 @@ export default function RiskZonesScreen({ navigation }: any) {
           domStorageEnabled
           geolocationEnabled
           mixedContentMode="always"
-          onLoadEnd={() => setLoadingMap(false)}
+          onLoadStart={() => {
+            setLoadingMap(true);
+            setWebViewLoaded(false);
+            setWebViewError(null);
+          }}
+          onLoadEnd={() => {
+            setLoadingMap(false);
+            setWebViewLoaded(true);
+          }}
+          onError={(e) => {
+            console.log('[RiskZones] WebView error:', e.nativeEvent);
+            setWebViewError(e.nativeEvent.description || 'Erreur WebView');
+          }}
+          onHttpError={(e) => {
+            console.log('[RiskZones] WebView httpError:', e.nativeEvent);
+            setWebViewError(`HTTP ${e.nativeEvent.statusCode}`);
+          }}
           onMessage={handleMessage}
         />
 
@@ -206,19 +239,31 @@ export default function RiskZonesScreen({ navigation }: any) {
           </View>
         )}
 
+        {!loadingData && webViewError && (
+          <View style={styles.debugBanner}>
+            <Text style={styles.debugText}>WebView error: {webViewError}</Text>
+          </View>
+        )}
+
+        {!loadingData && !zonesData && (
+          <View style={styles.debugBanner}>
+            <Text style={styles.debugText}>Aucune donnée de zone trouvée.</Text>
+          </View>
+        )}
+
         {/* STATS OVERLAY — en haut de la carte */}
         <View style={styles.statsOverlay}>
           <View style={styles.statBadge}>
-            <Text style={styles.statValue}>1 020+</Text>
+            <Text style={styles.statValue}>{statsData?.totalCases ?? '1 120+'}</Text>
             <Text style={styles.statLabel}>Cas totaux</Text>
           </View>
           <View style={[styles.statBadge, { backgroundColor: '#8E44AD' }]}>
-            <Text style={styles.statValue}>234</Text>
+            <Text style={styles.statValue}>{statsData?.deaths ?? '250'}</Text>
             <Text style={styles.statLabel}>Décès</Text>
           </View>
           <View style={[styles.statBadge, { backgroundColor: '#2980B9' }]}>
-            <Text style={styles.statValue}>3 prov.</Text>
-            <Text style={styles.statLabel}>+ Ouganda</Text>
+            <Text style={styles.statValue}>{statsData?.provincesAffected ? `${statsData.provincesAffected} prov.` : '3 prov.'}</Text>
+            <Text style={styles.statLabel}>{statsData?.highlight ?? '+ Ouganda'}</Text>
           </View>
         </View>
 
@@ -268,7 +313,7 @@ const styles = StyleSheet.create({
   map: { flex: 1 },
 
   loader: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(255,255,255,0.92)',
@@ -336,4 +381,19 @@ const styles = StyleSheet.create({
   legendDot: { width: 14, height: 14, borderRadius: 7, marginRight: 10 },
   legendText: { fontSize: 13, fontWeight: '600' },
   legendSource: { fontSize: 10, textAlign: 'center', marginTop: 8 },
+  debugBanner: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: 'rgba(0,0,0,0.7)',
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    zIndex: 30,
+  },
+  debugText: {
+    color: '#fff',
+    fontSize: 12,
+    fontWeight: '700',
+  },
 });

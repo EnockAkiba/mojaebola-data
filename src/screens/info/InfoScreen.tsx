@@ -248,7 +248,7 @@ export default function InfoScreen({ navigation }: any) {
       <TouchableOpacity
         activeOpacity={0.9}
         style={styles.emergencyButton}
-        onPress={() => Linking.openURL('tel:08214419595')}
+        onPress={() => Linking.openURL('tel:0821419595')}
       >
         <Ionicons name="call" size={18} color="#FFFFFF" />
         <Text style={styles.emergencyText}>{t.emergency}</Text>

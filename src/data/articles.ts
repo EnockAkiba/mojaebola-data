@@ -88,7 +88,7 @@ Bisoko: Institut Pasteur, OMS, MSF`,
       Lingala: "Soki ozali na fiɛvre mpe otangani na moto ya maladi na mikolo 21, benga noki noki.",
     },
     contents: {
-      Français: `Appelez le 08214419595 IMMÉDIATEMENT si vous réunissez ces conditions :
+      Français: `Appelez le 0821419595 IMMÉDIATEMENT si vous réunissez ces conditions :
 
 🚨 Signes d'alerte absolus :
 • Fièvre + contact avec un malade Ebola dans les 21 jours
@@ -104,12 +104,12 @@ Bisoko: Institut Pasteur, OMS, MSF`,
 
 ✅ Ce qu'il faut faire :
 • Isolez la personne dans une pièce séparée
-• Appelez le numéro vert : 08214419595
+• Appelez le numéro vert : 0821419595
 • Attendez les équipes médicales
 • Lavez-vous les mains au savon immédiatement
 
 Sources : OMS, Ministère de la Santé RDC`,
-      Kiswahili: `Piga simu 08214419595 MARA MOJA ukiwa na hali hizi:
+      Kiswahili: `Piga simu 0821419595 MARA MOJA ukiwa na hali hizi:
 
 🚨 Ishara za tahadhari kabisa:
 • Homa + kugusa mgonjwa wa Ebola katika siku 21
@@ -125,12 +125,12 @@ Sources : OMS, Ministère de la Santé RDC`,
 
 ✅ Fanya hivi:
 • Mtenga mtu katika chumba tofauti
-• Piga simu: 08214419595
+• Piga simu: 0821419595
 • Subiri timu za matibabu
 • Osha mikono kwa sabuni mara moja
 
 Vyanzo: WHO, Wizara ya Afya DRC`,
-      Lingala: `Benga 08214419595 NOKI NOKI soki ozali na makambo oyo:
+      Lingala: `Benga 0821419595 NOKI NOKI soki ozali na makambo oyo:
 
 🚨 Bilembo ya lisakoli makasi:
 • Fiɛvre + kotangana na moto ya maladi Ebola na mikolo 21
@@ -146,7 +146,7 @@ Vyanzo: WHO, Wizara ya Afya DRC`,
 
 ✅ Sala oyo:
 • Kaba moto na chambre mosusu
-• Benga: 08214419595
+• Benga: 0821419595
 • Lɛla bato ya santé
 • Sala mabɔkɔ na savon noki noki
 
@@ -186,7 +186,7 @@ Le contact avec les corps des personnes décédées d'Ebola est extrêmement dan
 Les chauves-souris, primates et autres animaux sauvages peuvent être porteurs du virus. Évitez de les chasser, manipuler ou consommer.
 
 ✅ Geste 5 — Signaler immédiatement tout cas suspect
-Appelez le 08214419595 dès que vous suspectez un cas. Ne tardez pas : chaque heure compte.
+Appelez le 0821419595 dès que vous suspectez un cas. Ne tardez pas : chaque heure compte.
 
 Sources : OMS, UNICEF, MSF`,
       Kiswahili: `Hatua hizi 5 zinaweza kuokoa maisha yako na familia yako:
@@ -204,7 +204,7 @@ Kugusa miili ya watu waliokufa kwa Ebola ni hatari sana. Mazishi lazima yashughu
 Popo, nyani na wanyama wengine wa mwituni wanaweza kubeba virusi. Epuka kuwinda, kushughulikia au kula.
 
 ✅ Hatua 5 — Ripoti haraka kesi yoyote inayoshukiwa
-Piga simu 08214419595 mara unaposhuku kesi. Usichelewe: kila saa inahesabu.
+Piga simu 0821419595 mara unaposhuku kesi. Usichelewe: kila saa inahesabu.
 
 Vyanzo: WHO, UNICEF, MSF`,
       Lingala: `Makambo 5 oyo ekoki kobikisa yo mpe libota na yo:
@@ -222,7 +222,7 @@ Kobɛta nzoto ya bato ya kokufela na Ebola ezali mpasi makasi. Libándeli esenge
 Bazongizongi, basingi mpe binyama ya zamba ekoki kozala na virus. Kolaka te, kobɛta te to kolya te.
 
 ✅ Makambo 5 — Lokisa noki mibéki ya kokeka nyonso
-Benga 08214419595 tango otali mibéki. Kolɛla te: ngonga nyonso ezali na ntina.
+Benga 0821419595 tango otali mibéki. Kolɛla te: ngonga nyonso ezali na ntina.
 
 Bisoko: OMS, UNICEF, MSF`,
     },
@@ -254,7 +254,7 @@ Les équipes médicales formées (MSF, Ministère de la Santé) organisent des e
 📞 Que faire en cas de décès suspect :
 1. Ne touchez PAS le corps
 2. Éloignez les proches de la pièce
-3. Appelez immédiatement le 08214419595
+3. Appelez immédiatement le 0821419595
 4. Attendez l'arrivée des équipes sanitaires
 5. Donnez-leur les coordonnées des personnes en contact avec le défunt
 
@@ -273,7 +273,7 @@ Timu za matibabu zilizofunzwa (MSF, Wizara ya Afya) zinapanga mazishi ya heshima
 📞 Nini kufanya wakati wa kifo kinachoshukiwa:
 1. USIGUSE mwili
 2. Weka mbali ndugu kutoka chumbani
-3. Piga simu 08214419595 mara moja
+3. Piga simu 0821419595 mara moja
 4. Subiri timu za afya
 5. Wape maelezo ya watu waliogusa marehemu
 
@@ -289,7 +289,7 @@ Bato ya kelasi ya santé (MSF, Ministère ya Santé) basalaka libándeli ya loku
 📞 Tosala nini tango moto akufeli na bokɔngɔ:
 1. Kobɛta nzoto te
 2. Kaba bato ya libota na shambre
-3. Benga 08214419595 noki noki
+3. Benga 0821419595 noki noki
 4. Lɛla bato ya santé
 5. Pesa bango mabɔkɔ ya bato oyo batangani na moto ya kokufela
 
@@ -450,22 +450,22 @@ Bisoko: OMS, MSF, Institut Pasteur`,
 
 🏥 CTE de Bunia
 Adresse : Avenue Kindu, Bunia (Ituri)
-Tél : 08214419595
+Tél : 0821419595
 Statut : Ouvert 24h/24 — Personnel OMS + MSF déployé
 Note : Épicentre de l'épidémie. Matériel renforcé depuis mai 2026.
 
 🏥 CTE de Goma
 Adresse : Quartier Himbi, Goma (Nord-Kivu)
-Tél : 08214419595
+Tél : 0821419595
 Statut : Ouvert — Cas confirmé le 17 mai 2026
 
 🏥 Hôpital Général de Référence de Bunia
 Adresse : Avenue de l'Hôpital, Bunia
-Tél : 08214419595
+Tél : 0821419595
 Statut : Triage et orientation vers le CTE
 
 ⚠️ Important :
-N'allez pas directement à l'hôpital si vous suspectez Ebola. Appelez d'abord le 08214419595. Une équipe viendra vous chercher en toute sécurité.
+N'allez pas directement à l'hôpital si vous suspectez Ebola. Appelez d'abord le 0821419595. Une équipe viendra vous chercher en toute sécurité.
 
 📦 Matériel disponible :
 Plus de 50 tonnes de matériel médical ont été acheminées à Bunia par l'OMS et l'UNICEF depuis le début de l'épidémie.
@@ -475,32 +475,32 @@ Sources : OMS, MSF, UNICEF`,
 
 🏥 CTE ya Bunia
 Anwani: Avenue Kindu, Bunia (Ituri)
-Simu: 08214419595
+Simu: 0821419595
 Hali: Wazi masaa 24 — Wafanyakazi wa WHO + MSF wamewekwa
 
 🏥 CTE ya Goma
 Anwani: Mtaa wa Himbi, Goma (Nord-Kivu)
-Simu: 08214419595
+Simu: 0821419595
 Hali: Wazi — Kesi ilithibitishwa tarehe 17 Mei 2026
 
 ⚠️ Muhimu:
-Usiende hospitali moja kwa moja ukishuku Ebola. Kwanza piga simu 08214419595. Timu itakuja kukuchukua kwa usalama.
+Usiende hospitali moja kwa moja ukishuku Ebola. Kwanza piga simu 0821419595. Timu itakuja kukuchukua kwa usalama.
 
 Vyanzo: WHO, MSF, UNICEF`,
       Lingala: `📍 CTE ya Bolambi Ebola oyo ezali na mosala:
 
 🏥 CTE ya Bunia
 Adrɛsi: Avenue Kindu, Bunia (Ituri)
-Tel: 08214419595
+Tel: 0821419595
 Etat: Efungwami ngonga 24 — Bato ya OMS + MSF bazali
 
 🏥 CTE ya Goma
 Adrɛsi: Quartier Himbi, Goma (Nord-Kivu)
-Tel: 08214419595
+Tel: 0821419595
 Etat: Efungwami — Mibéki ya solo etikamaki 17 mai 2026
 
 ⚠️ Ntina:
-Okei te noki noki na lopitalo soki otali Ebola. Liboso benga 08214419595. Ekipe ekoya kozwa yo na bopeto.
+Okei te noki noki na lopitalo soki otali Ebola. Liboso benga 0821419595. Ekipe ekoya kozwa yo na bopeto.
 
 Bisoko: OMS, MSF, UNICEF`,
     },

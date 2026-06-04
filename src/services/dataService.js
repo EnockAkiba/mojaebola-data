@@ -7,6 +7,8 @@ import about from '../data/about.json';
 import articles from "../data/articles.json";
 import homeTrans from "../data/homeTrans.json";
 import zonesRisque from "../data/zonesRisque.json";
+import onBoarding from "../data/onBoarding.json";
+import riskStats from '../data/riskStats.json';
 
 const BASE_URL = 'https://raw.githubusercontent.com/EnockAkiba/mojaebola-app/refs/heads/main/src/data/';
 
@@ -19,6 +21,8 @@ const FILES = {
   epidemic:     `${BASE_URL}epidemic.json`,
   about:        `${BASE_URL}about.json`,
   zonesRisque:   `${BASE_URL}zonesRisque.json`,
+  riskStats:     `${BASE_URL}riskStats.json`,
+  onBoarding:   `${BASE_URL}onBoarding.json`,
 };
 
 // Normalise la donnée selon la clé (évite les incohérences de format)
@@ -46,6 +50,8 @@ export const getData = async (key) => {
       epidemic:     epidemic,
       about:        about,
       zonesRisque:  zonesRisque,
+      riskStats:    riskStats,
+      onBoarding:   onBoarding,
     };
 
     const fallback = fallbacks[key] ?? null;
