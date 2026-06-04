@@ -1,6 +1,3 @@
-Voici le fichier converti et structuré au format **JSON** valide, incluant le tableau des options de langue ainsi que l'objet complet des traductions (FR, SW, LG).
-
-```json
 {
   "languageOptions": ["FR", "SW", "LG"],
   "translations": {

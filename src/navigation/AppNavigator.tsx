@@ -1,9 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import LoginScreen from "../screens/Auth/LoginScreen";
-import RegisterScreen from "../screens/Auth/RegisterScreen";
-import Onboarding from "../screens/Onboarding/Onboarding";
 import PublicHomeScreen from "../screens/home/PublicHomeScreen";
 import AboutScreen from "../screens/info/AboutScreen";
 
@@ -13,6 +10,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { View, ActivityIndicator } from "react-native";
+import OnboardingScreen from "../screens/onboarding/OnboardingScreen";
+import LoginScreen from "../screens/Login/LoginScreen";
+import RegisterScreen from "../screens/Login/RegisterScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -54,7 +54,7 @@ export default function AppNavigator() {
 
                     {/* 1. FIRST OPEN */}
                     {!hasSeenOnboarding && (
-                        <Stack.Screen name="Onboarding" component={Onboarding} />
+                        <Stack.Screen name="Onboarding" component={OnboardingScreen} />
                     )}
 
                     {/* 2. AUTHENTICATED USER */}
@@ -69,8 +69,8 @@ export default function AppNavigator() {
                     <Stack.Screen name="AboutScreen" component={AboutScreen} />
 
                     {/* AUTH SCREENS (accessible depuis PublicHome ou navigation interne) */}
-                    <Stack.Screen name="Login" component={LoginScreen} />
-                    <Stack.Screen name="Register" component={RegisterScreen} />
+                    {/* <Stack.Screen name="Login" component={LoginScreen} />
+                    <Stack.Screen name="Register" component={RegisterScreen} /> */}
 
                 </Stack.Navigator>
             </NavigationContainer>

@@ -6,6 +6,7 @@ import OnboardingStack from "./stacks/OnboardingStack";
 import PublicStack from "./stacks/PublicStack";
 import PrivateStack from "./stacks/PrivateStack";
 import { AuthContext } from "../context/AuthContext";
+import { subscribe } from "../utils/eventBus";
 
 export default function RootNavigator() {
     const { isAuth, loading } = useContext(AuthContext);
@@ -27,6 +28,12 @@ export default function RootNavigator() {
         };
 
         check();
+        // subscribe to onboarding events so we can update navigation immediately
+        const unsub = subscribe('onboardingSeen', (val) => {
+            setHasSeenOnboarding(!!val);
+        });
+
+        return () => unsub();
     }, []);
     console.log("loading =", loading);
     console.log("hasSeenOnboarding =", hasSeenOnboarding);

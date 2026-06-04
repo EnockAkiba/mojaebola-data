@@ -6,7 +6,7 @@ export const translations: Record<string, any> = {
     alertText:
       "L'épidémie frappe l'Ituri, le Nord-Kivu et le Sud-Kivu. Plus de 500 cas suspects et 100 décès recensés. Virus Bundibugyo — aucun vaccin disponible.",
     readMore: 'Lire plus',
-    emergency: 'Urgence Ebola — 08214419595',
+    emergency: 'Urgence Ebola — 0821419595',
     statsTitle: 'Situation au 20 mai 2026',
     stats: [
       { value: '51', label: 'Cas confirmés', color: '#D64545' },
@@ -22,7 +22,7 @@ export const translations: Record<string, any> = {
     alertText:
       'Janga linagusa Ituri, Nord-Kivu na Sud-Kivu. Zaidi ya kesi 500 na vifo 100. Virusi Bundibugyo — chanjo haipo.',
     readMore: 'Soma zaidi',
-    emergency: 'Dharura Ebola — 08214419595',
+    emergency: 'Dharura Ebola — 0821419595',
     statsTitle: 'Hali ya tarehe 20 Mei 2026',
     stats: [
       { value: '51', label: 'Kesi zilizothibitishwa', color: '#D64545' },
@@ -38,7 +38,7 @@ export const translations: Record<string, any> = {
     alertText:
       'Bokɔngɔ euti na Ituri, Nord-Kivu na Sud-Kivu. Bato 500+ bazali na maladi mpe bato 100+ bakufi. Virus Bundibugyo — vaccine ezali te.',
     readMore: 'Tanga lisusu',
-    emergency: 'Urgence Ebola — 08214419595',
+    emergency: 'Urgence Ebola — 0821419595',
     statsTitle: 'Situation ya 20 Mai 2026',
     stats: [
       { value: '51', label: 'Mibéki ya solo', color: '#D64545' },

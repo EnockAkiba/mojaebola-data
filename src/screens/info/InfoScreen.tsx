@@ -1,5 +1,6 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
+  ActivityIndicator,
   FlatList,
   Linking,
   ScrollView,
@@ -14,44 +15,72 @@ import {
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { DarkTheme, LightTheme } from '../../config/Theme';
-
-import { articles } from "../../data/articles";
-import { translations } from '../../data/translations';
+import { getData } from '../../services/dataService';
+import translationsJson from '../../data/translations.json';
 
 // ─── CONSTANTES ───────────────────────────────────────────────────────────────
 
-const LANGUAGES = ['Français', 'Kiswahili', 'Lingala'];
+const LANGUAGES = ['FR', 'SW', 'LG'];
 const FILTERS = ['Tous', 'Symptômes', 'Prévention', 'Traitement', 'Situation'];
 
-// ─── TRADUCTIONS UI ───────────────────────────────────────────────────────────
-
-
-
-// ─── ARTICLES COMPLETS ────────────────────────────────────────────────────────
-
-
-
-// ─── COMPOSANT PRINCIPAL ──────────────────────────────────────────────────────
 
 export default function InfoScreen({ navigation }: any) {
   const scheme = useColorScheme();
   const theme = scheme === 'dark' ? DarkTheme : LightTheme;
 
-  const [selectedLanguage, setSelectedLanguage] = useState('Français');
+  const [selectedLanguage, setSelectedLanguage] = useState('FR');
   const [selectedFilter, setSelectedFilter] = useState('Tous');
+  const [articlesData, setArticlesData] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const t = translations[selectedLanguage];
+  const t = translationsJson?.[selectedLanguage] ?? translationsJson?.FR ?? {
+    filters: [],
+    alertBadge: '',
+    alertTitle: '',
+    alertText: '',
+    readMore: '',
+    emergency: '',
+    statsTitle: '',
+    stats: [],
+    source: '',
+  };
+
+  useEffect(() => {
+    const loadArticles = async () => {
+      try {
+        const data = await getData('articles');
+        setArticlesData(Array.isArray(data) ? data : []);
+      } catch (error) {
+        console.log('Erreur chargement articles:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadArticles();
+  }, []);
 
   const filteredArticles = useMemo(() => {
-    return articles.filter(article => {
-      if (selectedFilter === 'Tous') return true;
+    return articlesData.filter(article => {
+
+      if (!article) {
+        return false;
+      }
+
+      if (selectedFilter === 'Tous') {
+        return true;
+      }
+
       return article.category === selectedFilter;
     });
-  }, [selectedFilter]);
+  }, [selectedFilter, articlesData]);
 
   const renderArticle = ({ item }: any) => {
-    const title = item.titles[selectedLanguage] ?? item.titles['Français'];
-    const preview = item.previews[selectedLanguage] ?? item.previews['Français'];
+    if (!item) {
+      return null;
+    }
+    const title = item.titles[selectedLanguage] ?? item.titles['FR'];
+    const preview = item.previews[selectedLanguage] ?? item.previews['FR'];
 
     return (
       <TouchableOpacity
@@ -88,13 +117,27 @@ export default function InfoScreen({ navigation }: any) {
     );
   };
 
+  if (loading) {
+    return (
+      <SafeAreaView style={[styles.container, { backgroundColor: theme.colors.background }]} edges={['top']}>
+        <StatusBar barStyle={scheme === 'dark' ? 'light-content' : 'dark-content'} />
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <ActivityIndicator size="large" />
+          <Text>Chargement des articles...</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: theme.colors.background }]} edges={['top']}>
       <StatusBar barStyle={scheme === 'dark' ? 'light-content' : 'dark-content'} />
 
       <FlatList
         data={filteredArticles}
-        keyExtractor={item => item.id}
+        keyExtractor={(item, index) =>
+          item?.id?.toString() ?? index.toString()
+        }
         renderItem={renderArticle}
         contentContainerStyle={{ paddingBottom: 100 }}
         showsVerticalScrollIndicator={false}
@@ -139,7 +182,7 @@ export default function InfoScreen({ navigation }: any) {
             }]}>
               <Text style={[styles.statsTitle, { color: theme.colors.text }]}>{t.statsTitle}</Text>
               <View style={styles.statsRow}>
-                {t.stats.map((s: any, i: number) => (
+                {t.stats?.map((s: any, i: number) => (
                   <View key={i} style={styles.statItem}>
                     <Text style={[styles.statValue, { color: s.color }]}>{s.value}</Text>
                     <Text style={[styles.statLabel, { color: theme.colors.subText }]}>{s.label}</Text>
@@ -155,7 +198,7 @@ export default function InfoScreen({ navigation }: any) {
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={styles.filtersContainer}
             >
-              {t.filters.map((filter: string, index: number) => {
+              {t?.filters?.map((filter: string, index: number) => {
                 const originalFilter = FILTERS[index];
                 const active = selectedFilter === originalFilter;
                 return (
@@ -205,7 +248,7 @@ export default function InfoScreen({ navigation }: any) {
       <TouchableOpacity
         activeOpacity={0.9}
         style={styles.emergencyButton}
-        onPress={() => Linking.openURL('tel:08214419595')}
+        onPress={() => Linking.openURL('tel:0821419595')}
       >
         <Ionicons name="call" size={18} color="#FFFFFF" />
         <Text style={styles.emergencyText}>{t.emergency}</Text>

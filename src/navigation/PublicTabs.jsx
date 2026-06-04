@@ -35,7 +35,7 @@ export default function PublicTabs() {
                 component={InfoScreen}
                 options={{
                     tabBarIcon: ({ color, size }) => (
-                        <Ionicons name="information-circle" size={size} color={color} />
+                        <Ionicons name="book" size={size} color={color} />
                     ),
                     tabBarLabel: "Info",
                 }}

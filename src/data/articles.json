@@ -5,19 +5,19 @@
     "color": "#D64545",
     "icon": "thermometer",
     "titles": {
-      "Français": "Les symptômes du virus Ebola Bundibugyo",
-      "Kiswahili": "Dalili za virusi vya Ebola Bundibugyo",
-      "Lingala": "Bimoko ya virus Ebola Bundibugyo"
+      "FR": "Les symptômes du virus Ebola Bundibugyo",
+      "SW": "Dalili za virusi vya Ebola Bundibugyo",
+      "LG": "Bimoko ya virus Ebola Bundibugyo"
     },
     "previews": {
-      "Français": "Fièvre élevée, vomissements, diarrhée, douleurs musculaires et hémorragies. Taux de mortalité : 50%.",
-      "Kiswahili": "Homa kali, kutapika, kuhara, maumivu ya misuli na kutoka damu. Kiwango cha vifo: 50%.",
-      "Lingala": "Fiɛvre makasi, kobɛta vomi, kolɛnga, mawa ya misuli mpe makila ebimi. Lifo: 50%."
+      "FR": "Fièvre élevée, vomissements, diarrhée, douleurs musculaires et hémorragies. Taux de mortalité : 50%.",
+      "SW": "Homa kali, kutapika, kuhara, maumivu ya misuli na kutoka damu. Kiwango cha vifo: 50%.",
+      "LG": "Fiɛvre makasi, kobɛta vomi, kolɛnga, mawa ya misuli mpe makila ebimi. Lifo: 50%."
     },
     "contents": {
-      "Français": "Les symptômes apparaissent entre 2 et 21 jours après l'exposition au virus.\n\n🔴 Symptômes principaux :\n• Fièvre élevée (souvent supérieure à 38,5°C)\n• Fatigue intense et faiblesses musculaires\n• Maux de tête sévères\n• Maux de gorge\n• Vomissements et diarrhée\n• Éruptions cutanées\n• Hémorragies internes et externes (stade avancé)\n\n⚠️ Le virus Bundibugyo en particulier :\nLa souche Bundibugyo, active en RDC en 2026, provoque des symptômes similaires aux autres souches Ebola mais se propage plus rapidement. Son taux de létalité moyen est de 50%, pouvant atteindre 90% sans prise en charge médicale.\n\n📋 Période d'incubation :\n2 à 21 jours. Une personne infectée n'est pas contagieuse avant l'apparition des symptômes.\n\nSources : Institut Pasteur, OMS, MSF",
-      "Kiswahili": "Dalili zinaonekana kati ya siku 2 na 21 baada ya kuambukizwa na virusi.\n\n🔴 Dalili kuu:\n• Homa kali (mara nyingi zaidi ya 38.5°C)\n• Uchovu mkubwa na udhaifu wa misuli\n• Maumivu makali ya kichwa\n• Maumivu ya koo\n• Kutapika na kuhara\n• Upele wa ngozi\n• Kutoka damu ndani na nje (hatua ya juu)\n\n⚠️ Virusi vya Bundibugyo hasa:\nAina ya Bundibugyo, inayoenea DRC mwaka 2026, inasababisha dalili zinazofanana na aina nyingine za Ebola lakini inaenea haraka zaidi. Kiwango chake cha vifo ni 50% wastani, inaweza kufikia 90% bila matibabu.\n\n📋 Kipindi cha kuanguliwa:\nSiku 2 hadi 21. Mtu aliyeambukizwa si wa kuambukiza kabla ya dalili kuonekana.\n\nVyanzo: Institut Pasteur, WHO, MSF",
-      "Lingala": "Bimoko ebimiaka na mikolo 2 kino 21 sima ya kobɛlama na virus.\n\n🔴 Bimoko ya liboso:\n• Fiɛvre makasi (ebungaka koleka 38.5°C)\n• Bolɛmbu makasi mpe bopɛtɔlɔ ya misuli\n• Mawa makasi ya moto\n• Mawa ya nkingo\n• Kobɛta vomi mpe kolɛnga\n• Bipepe ya nzoto\n• Makila ebimi na kati mpe libanda (ntango eleki)\n\n⚠️ Virus Bundibugyo na ye moko:\nSouche Bundibugyo, ezali na RDC na 2026, esalaka bimoko ya ndenge moko na souche mosusu ya Ebola kasi epalangani noki koleka. Lifo na ye ezali 50% kati, ekoki kokɔta 90% soki bolambi ezali te.\n\n📋 Ntango ya kobɛlama:\nMikolo 2 kino 21. Moto ya kobɛlama akomi kolela te liboso bimoko ebimi.\n\nBisoko: Institut Pasteur, OMS, MSF"
+      "FR": "Les symptômes apparaissent entre 2 et 21 jours après l'exposition au virus.\n\n🔴 Symptômes principaux :\n• Fièvre élevée (souvent supérieure à 38,5°C)\n• Fatigue intense et faiblesses musculaires\n• Maux de tête sévères\n• Maux de gorge\n• Vomissements et diarrhée\n• Éruptions cutanées\n• Hémorragies internes et externes (stade avancé)\n\n⚠️ Le virus Bundibugyo en particulier :\nLa souche Bundibugyo, active en RDC en 2026, provoque des symptômes similaires aux autres souches Ebola mais se propage plus rapidement. Son taux de létalité moyen est de 50%, pouvant atteindre 90% sans prise en charge médicale.\n\n📋 Période d'incubation :\n2 à 21 jours. Une personne infectée n'est pas contagieuse avant l'apparition des symptômes.\n\nSources : Institut Pasteur, OMS, MSF",
+      "SW": "Dalili zinaonekana kati ya siku 2 na 21 baada ya kuambukizwa na virusi.\n\n🔴 Dalili kuu:\n• Homa kali (mara nyingi zaidi ya 38.5°C)\n• Uchovu mkubwa na udhaifu wa misuli\n• Maumivu makali ya kichwa\n• Maumivu ya koo\n• Kutapika na kuhara\n• Upele wa ngozi\n• Kutoka damu ndani na nje (hatua ya juu)\n\n⚠️ Virusi vya Bundibugyo hasa:\nAina ya Bundibugyo, inayoenea DRC mwaka 2026, inasababisha dalili zinazofanana na aina nyingine za Ebola lakini inaenea haraka zaidi. Kiwango chake cha vifo ni 50% wastani, inaweza kufikia 90% bila matibabu.\n\n📋 Kipindi cha kuanguliwa:\nSiku 2 hadi 21. Mtu aliyeambukizwa si wa kuambukiza kabla ya dalili kuonekana.\n\nVyanzo: Institut Pasteur, WHO, MSF",
+      "LG": "Bimoko ebimiaka na mikolo 2 kino 21 sima ya kobɛlama na virus.\n\n🔴 Bimoko ya liboso:\n• Fiɛvre makasi (ebungaka koleka 38.5°C)\n• Bolɛmbu makasi mpe bopɛtɔlɔ ya misuli\n• Mawa makasi ya moto\n• Mawa ya nkingo\n• Kobɛta vomi mpe kolɛnga\n• Bipepe ya nzoto\n• Makila ebimi na kati mpe libanda (ntango eleki)\n\n⚠️ Virus Bundibugyo na ye moko:\nSouche Bundibugyo, ezali na RDC na 2026, esalaka bimoko ya ndenge moko na souche mosusu ya Ebola kasi epalangani noki koleka. Lifo na ye ezali 50% kati, ekoki kokɔta 90% soki bolambi ezali te.\n\n📋 Ntango ya kobɛlama:\nMikolo 2 kino 21. Moto ya kobɛlama akomi kolela te liboso bimoko ebimi.\n\nBisoko: Institut Pasteur, OMS, MSF"
     }
   },
   {
@@ -26,19 +26,19 @@
     "color": "#D64545",
     "icon": "alert-circle",
     "titles": {
-      "Français": "Quand consulter en urgence ?",
-      "Kiswahili": "Lini kuenda hospitalini haraka?",
-      "Lingala": "Tango nini okei na lopitalo noki?"
+      "FR": "Quand consulter en urgence ?",
+      "SW": "Lini kuenda hospitalini haraka?",
+      "LG": "Tango nini okei na lopitalo noki?"
     },
     "previews": {
-      "Français": "Si vous avez de la fièvre et avez été en contact avec un malade dans les 21 derniers jours, appelez immédiatement.",
-      "Kiswahili": "Kama una homa na umegusa mgonjwa katika siku 21 zilizopita, piga simu mara moja.",
-      "Lingala": "Soki ozali na fiɛvre mpe otangani na moto ya maladi na mikolo 21, benga noki noki."
+      "FR": "Si vous avez de la fièvre et avez été en contact avec un malade dans les 21 derniers jours, appelez immédiatement.",
+      "SW": "Kama una homa na umegusa mgonjwa katika siku 21 zilizopita, piga simu mara moja.",
+      "LG": "Soki ozali na fiɛvre mpe otangani na moto ya maladi na mikolo 21, benga noki noki."
     },
     "contents": {
-      "Français": "Appelez le 08214419595 IMMÉDIATEMENT si vous réunissez ces conditions :\n\n🚨 Signes d'alerte absolus :\n• Fièvre + contact avec un malade Ebola dans les 21 jours\n• Fièvre + contact avec une dépouille dans les 21 jours\n• Fièvre + retour d'une zone affectée (Bunia, Goma, Ituri)\n• Saignements inexpliqués\n\n❌ Ce qu'il ne faut PAS faire :\n• Ne pas se rendre seul à l'hôpital en transport en commun\n• Ne pas soigner le malade à domicile sans protection\n• Ne pas participer aux rites funéraires si quelqu'un est décédé de l'Ebola\n• Ne pas attendre que les symptômes s'aggravent\n\n✅ Ce qu'il faut faire :\n• Isolez la personne dans une pièce séparée\n• Appelez le numéro vert : 08214419595\n• Attendez les équipes médicales\n• Lavez-vous les mains au savon immédiatement\n\nSources : OMS, Ministère de la Santé RDC",
-      "Kiswahili": "Piga simu 08214419595 MARA MOJA ukiwa na hali hizi:\n\n🚨 Ishara za tahadhari kabisa:\n• Homa + kugusa mgonjwa wa Ebola katika siku 21\n• Homa + kugusa maiti katika siku 21\n• Homa + kurudi kutoka eneo lililoathiriwa (Bunia, Goma, Ituri)\n• Kutoka damu bila sababu\n\n❌ Usifanye:\n• Usijisafirisha peke yako hospitali kwa usafiri wa umma\n• Usimhudumie mgonjwa nyumbani bila ulinzi\n• Usishiriki mazishi kama mtu amekufa kwa Ebola\n• Usisubiri dalili kuzidi\n\n✅ Fanya hivi:\n• Mtenga mtu katika chumba tofauti\n• Piga simu: 08214419595\n• Subiri timu za matibabu\n• Osha mikono kwa sabuni mara moja\n\nVyanzo: WHO, Wizara ya Afya DRC",
-      "Lingala": "Benga 08214419595 NOKI NOKI soki ozali na makambo oyo:\n\n🚨 Bilembo ya lisakoli makasi:\n• Fiɛvre + kotangana na moto ya maladi Ebola na mikolo 21\n• Fiɛvre + kobɛta moto ya kokufela na mikolo 21\n• Fiɛvre + kozonga na esika ya bokɔngɔ (Bunia, Goma, Ituri)\n• Makila ebimi na ntina te\n\n❌ Osala te:\n• Okei te kaka na lopitalo na transport ya bato nyonso\n• Obolamisi moto ya maladi na ndako te kozanga kobatela yo\n• Okei te na libándeli soki moto akufeli na Ebola\n• Olɛla te ete bimoko ekola\n\n✅ Sala oyo:\n• Kaba moto na chambre mosusu\n• Benga: 08214419595\n• Lɛla bato ya santé\n• Sala mabɔkɔ na savon noki noki\n\nBisoko: OMS, Ministère ya Santé RDC"
+      "FR": "Appelez le 0821419595 IMMÉDIATEMENT si vous réunissez ces conditions :\n\n🚨 Signes d'alerte absolus :\n• Fièvre + contact avec un malade Ebola dans les 21 jours\n• Fièvre + contact avec une dépouille dans les 21 jours\n• Fièvre + retour d'une zone affectée (Bunia, Goma, Ituri)\n• Saignements inexpliqués\n\n❌ Ce qu'il ne faut PAS faire :\n• Ne pas se rendre seul à l'hôpital en transport en commun\n• Ne pas soigner le malade à domicile sans protection\n• Ne pas participer aux rites funéraires si quelqu'un est décédé de l'Ebola\n• Ne pas attendre que les symptômes s'aggravent\n\n✅ Ce qu'il faut faire :\n• Isolez la personne dans une pièce séparée\n• Appelez le numéro vert : 0821419595\n• Attendez les équipes médicales\n• Lavez-vous les mains au savon immédiatement\n\nSources : OMS, Ministère de la Santé RDC",
+      "SW": "Piga simu 0821419595 MARA MOJA ukiwa na hali hizi:\n\n🚨 Ishara za tahadhari kabisa:\n• Homa + kugusa mgonjwa wa Ebola katika siku 21\n• Homa + kugusa maiti katika siku 21\n• Homa + kurudi kutoka eneo lililoathiriwa (Bunia, Goma, Ituri)\n• Kutoka damu bila sababu\n\n❌ Usifanye:\n• Usijisafirisha peke yako hospitali kwa usafiri wa umma\n• Usimhudumie mgonjwa nyumbani bila ulinzi\n• Usishiriki mazishi kama mtu amekufa kwa Ebola\n• Usisubiri dalili kuzidi\n\n✅ Fanya hivi:\n• Mtenga mtu katika chumba tofauti\n• Piga simu: 0821419595\n• Subiri timu za matibabu\n• Osha mikono kwa sabuni mara moja\n\nVyanzo: WHO, Wizara ya Afya DRC",
+      "LG": "Benga 0821419595 NOKI NOKI soki ozali na makambo oyo:\n\n🚨 Bilembo ya lisakoli makasi:\n• Fiɛvre + kotangana na moto ya maladi Ebola na mikolo 21\n• Fiɛvre + kobɛta moto ya kokufela na mikolo 21\n• Fiɛvre + kozonga na esika ya bokɔngɔ (Bunia, Goma, Ituri)\n• Makila ebimi na ntina te\n\n❌ Osala te:\n• Okei te kaka na lopitalo na transport ya bato nyonso\n• Obolamisi moto ya maladi na ndako te kozanga kobatela yo\n• Okei te na libándeli soki moto akufeli na Ebola\n• Olɛla te ete bimoko ekola\n\n✅ Sala oyo:\n• Kaba moto na chambre mosusu\n• Benga: 0821419595\n• Lɛla bato ya santé\n• Sala mabɔkɔ na savon noki noki\n\nBisoko: OMS, Ministère ya Santé RDC"
     }
   },
   {
@@ -47,19 +47,19 @@
     "color": "#16A085",
     "icon": "shield-checkmark",
     "titles": {
-      "Français": "Les 5 gestes barrières essentiels",
-      "Kiswahili": "Hatua 5 muhimu za kujikinga",
-      "Lingala": "Makambo 5 ya kokeba"
+      "FR": "Les 5 gestes barrières essentiels",
+      "KiSW": "Hatua 5 muhimu za kujikinga",
+      "LG": "Makambo 5 ya kokeba"
     },
     "previews": {
-      "Français": "Lavage des mains, éviter les contacts, ne pas toucher les dépouilles, éviter la viande de brousse, signaler.",
-      "Kiswahili": "Osha mikono, epuka mawasiliano, usiguse maiti, epuka nyama ya porini, ripoti.",
-      "Lingala": "Sala mabɔkɔ, kobɛta bato te, kobɛta moto ya kokufela te, kolya nyama ya zamba te, lokisa."
+      "FR": "Lavage des mains, éviter les contacts, ne pas toucher les dépouilles, éviter la viande de brousse, signaler.",
+      "KiSW": "Osha mikono, epuka mawasiliano, usiguse maiti, epuka nyama ya porini, ripoti.",
+      "LG": "Sala mabɔkɔ, kobɛta bato te, kobɛta moto ya kokufela te, kolya nyama ya zamba te, lokisa."
     },
     "contents": {
-      "Français": "Ces 5 gestes peuvent vous sauver la vie et celle de votre famille :\n\n✅ Geste 1 — Lavage des mains\nLavez-vous les mains régulièrement avec du savon et de l'eau pendant au moins 20 secondes, ou utilisez un gel hydroalcoolique. C'est le geste le plus efficace.\n\n✅ Geste 2 — Éviter tout contact avec les malades\nNe touchez pas une personne présentant des symptômes d'Ebola, même un membre de votre famille. Portez des gants si vous devez vous en approcher.\n\n✅ Geste 3 — Ne jamais toucher les dépouilles\nLe contact avec les corps des personnes décédées d'Ebola est extrêmement dangereux. Les enterrements doivent être gérés par les équipes sanitaires formées.\n\n✅ Geste 4 — Éviter la viande de brousse\nLes chauves-souris, primates et autres animaux sauvages peuvent être porteurs du virus. Évitez de les chasser, manipuler ou consommer.\n\n✅ Geste 5 — Signaler immédiatement tout cas suspect\nAppelez le 08214419595 dès que vous suspectez un cas. Ne tardez pas : chaque heure compte.\n\nSources : OMS, UNICEF, MSF",
-      "Kiswahili": "Hatua hizi 5 zinaweza kuokoa maisha yako na familia yako:\n\n✅ Hatua 1 — Kuosha mikono\nOsha mikono mara kwa mara kwa sabuni na maji kwa sekunde 20 au tumia dawa ya kusafisha mikono. Hii ndiyo hatua yenye ufanisi zaidi.\n\n✅ Hatua 2 — Epuka mawasiliano na wagonjwa\nUsiguse mtu mwenye dalili za Ebola, hata mwanafamilia. Vaa glavu ukihitaji kukaribia.\n\n✅ Hatua 3 — Kamwe usiguse maiti\nKugusa miili ya watu waliokufa kwa Ebola ni hatari sana. Mazishi lazima yashughulikiwe na timu za afya zilizofunzwa.\n\n✅ Hatua 4 — Epuka nyama ya porini\nPopo, nyani na wanyama wengine wa mwituni wanaweza kubeba virusi. Epuka kuwinda, kushughulikia au kula.\n\n✅ Hatua 5 — Ripoti haraka kesi yoyote inayoshukiwa\nPiga simu 08214419595 mara unaposhuku kesi. Usichelewe: kila saa inahesabu.\n\nVyanzo: WHO, UNICEF, MSF",
-      "Lingala": "Makambo 5 oyo ekoki kobikisa yo mpe libota na yo:\n\n✅ Makambo 1 — Sala mabɔkɔ\nSala mabɔkɔ mbala na mbala na savon mpe mayi na sekonde 20 to tumia gel. Oyo nde makambo ya nguya mingi.\n\n✅ Makambo 2 — Kobɛta bato ya maladi te\nKobɛta te moto ya bimoko ya Ebola, ata moto ya libota na yo. Enfila gants soki osengeli kokɔta pene na ye.\n\n✅ Makambo 3 — Kobɛta moto ya kokufela te\nKobɛta nzoto ya bato ya kokufela na Ebola ezali mpasi makasi. Libándeli esengeli kosalema na bato ya santé ya kelasi.\n\n✅ Makambo 4 — Kolya nyama ya zamba te\nBazongizongi, basingi mpe binyama ya zamba ekoki kozala na virus. Kolaka te, kobɛta te to kolya te.\n\n✅ Makambo 5 — Lokisa noki mibéki ya kokeka nyonso\nBenga 08214419595 tango otali mibéki. Kolɛla te: ngonga nyonso ezali na ntina.\n\nBisoko: OMS, UNICEF, MSF"
+      "FR": "Ces 5 gestes peuvent vous sauver la vie et celle de votre famille :\n\n✅ Geste 1 — Lavage des mains\nLavez-vous les mains régulièrement avec du savon et de l'eau pendant au moins 20 secondes, ou utilisez un gel hydroalcoolique. C'est le geste le plus efficace.\n\n✅ Geste 2 — Éviter tout contact avec les malades\nNe touchez pas une personne présentant des symptômes d'Ebola, même un membre de votre famille. Portez des gants si vous devez vous en approcher.\n\n✅ Geste 3 — Ne jamais toucher les dépouilles\nLe contact avec les corps des personnes décédées d'Ebola est extrêmement dangereux. Les enterrements doivent être gérés par les équipes sanitaires formées.\n\n✅ Geste 4 — Éviter la viande de brousse\nLes chauves-souris, primates et autres animaux sauvages peuvent être porteurs du virus. Évitez de les chasser, manipuler ou consommer.\n\n✅ Geste 5 — Signaler immédiatement tout cas suspect\nAppelez le 0821419595 dès que vous suspectez un cas. Ne tardez pas : chaque heure compte.\n\nSources : OMS, UNICEF, MSF",
+      "KiSW": "Hatua hizi 5 zinaweza kuokoa maisha yako na familia yako:\n\n✅ Hatua 1 — Kuosha mikono\nOsha mikono mara kwa mara kwa sabuni na maji kwa sekunde 20 au tumia dawa ya kusafisha mikono. Hii ndiyo hatua yenye ufanisi zaidi.\n\n✅ Hatua 2 — Epuka mawasiliano na wagonjwa\nUsiguse mtu mwenye dalili za Ebola, hata mwanafamilia. Vaa glavu ukihitaji kukaribia.\n\n✅ Hatua 3 — Kamwe usiguse maiti\nKugusa miili ya watu waliokufa kwa Ebola ni hatari sana. Mazishi lazima yashughulikiwe na timu za afya zilizofunzwa.\n\n✅ Hatua 4 — Epuka nyama ya porini\nPopo, nyani na wanyama wengine wa mwituni wanaweza kubeba virusi. Epuka kuwinda, kushughulikia au kula.\n\n✅ Hatua 5 — Ripoti haraka kesi yoyote inayoshukiwa\nPiga simu 0821419595 mara unaposhuku kesi. Usichelewe: kila saa inahesabu.\n\nVyanzo: WHO, UNICEF, MSF",
+      "LG": "Makambo 5 oyo ekoki kobikisa yo mpe libota na yo:\n\n✅ Makambo 1 — Sala mabɔkɔ\nSala mabɔkɔ mbala na mbala na savon mpe mayi na sekonde 20 to tumia gel. Oyo nde makambo ya nguya mingi.\n\n✅ Makambo 2 — Kobɛta bato ya maladi te\nKobɛta te moto ya bimoko ya Ebola, ata moto ya libota na yo. Enfila gants soki osengeli kokɔta pene na ye.\n\n✅ Makambo 3 — Kobɛta moto ya kokufela te\nKobɛta nzoto ya bato ya kokufela na Ebola ezali mpasi makasi. Libándeli esengeli kosalema na bato ya santé ya kelasi.\n\n✅ Makambo 4 — Kolya nyama ya zamba te\nBazongizongi, basingi mpe binyama ya zamba ekoki kozala na virus. Kolaka te, kobɛta te to kolya te.\n\n✅ Makambo 5 — Lokisa noki mibéki ya kokeka nyonso\nBenga 0821419595 tango otali mibéki. Kolɛla te: ngonga nyonso ezali na ntina.\n\nBisoko: OMS, UNICEF, MSF"
     }
   },
   {
@@ -68,19 +68,19 @@
     "color": "#16A085",
     "icon": "heart",
     "titles": {
-      "Français": "Rites funéraires : comment protéger vos proches",
-      "Kiswahili": "Mazishi salama: jinsi ya kulinda familia yako",
-      "Lingala": "Libándeli ya kokufela: ndenge ya kobatela libota na yo"
+      "FR": "Rites funéraires : comment protéger vos proches",
+      "KiSW": "Mazishi salama: jinsi ya kulinda familia yako",
+      "LG": "Libándeli ya kokufela: ndenge ya kobatela libota na yo"
     },
     "previews": {
-      "Français": "Le contact avec les dépouilles est l'une des principales voies de transmission. Appelez les équipes sanitaires.",
-      "Kiswahili": "Kugusa maiti ni njia kuu ya kuambukizwa. Wapigie simu timu za afya.",
-      "Lingala": "Kobɛta moto ya kokufela ezali nzela monene ya kobɛlama. Bebingela bato ya santé."
+      "FR": "Le contact avec les dépouilles est l'une des principales voies de transmission. Appelez les équipes sanitaires.",
+      "KiSW": "Kugusa maiti ni njia kuu ya kuambukizwa. Wapigie simu timu za afya.",
+      "LG": "Kobɛta moto ya kokufela ezali nzela monene ya kobɛlama. Bebingela bato ya santé."
     },
     "contents": {
-      "Français": "Le contact avec les dépouilles est responsable d'une part importante de la transmission d'Ebola.\n\n⚠️ Pourquoi c'est dangereux :\nLe virus Ebola reste actif dans le corps d'une personne décédée pendant plusieurs jours. Les rituels traditionnels qui impliquent de toucher, laver ou embrasser le corps représentent un risque majeur de contamination.\n\n🙏 Respecter la dignité tout en se protégeant :\nLes équipes médicales formées (MSF, Ministère de la Santé) organisent des enterrements dignes et sécurisés qui respectent les traditions locales tout en protégeant la communauté.\n\n📞 Que faire en cas de décès suspect :\n1. Ne touchez PAS le corps\n2. Éloignez les proches de la pièce\n3. Appelez immédiatement le 08214419595\n4. Attendez l'arrivée des équipes sanitaires\n5. Donnez-leur les coordonnées des personnes en contact avec le défunt\n\n💬 Un message important :\nAccepter l'aide des équipes sanitaires n'est pas une trahison de vos traditions. C'est un acte d'amour pour protéger votre famille.\n\nSources : MSF, OMS, Ministère de la Santé RDC",
-      "Kiswahili": "Kugusa maiti kunawajibika kwa sehemu kubwa ya maambukizi ya Ebola.\n\n⚠️ Kwa nini ni hatari:\nVirusi vya Ebola hubaki hai mwilini kwa siku kadhaa baada ya kifo. Mila za jadi zinazohusisha kugusa, kuosha au kubusu mwili zinawakilisha hatari kubwa ya kuambukizwa.\n\n🙏 Kuheshimu utu huku ukijilinda:\nTimu za matibabu zilizofunzwa (MSF, Wizara ya Afya) zinapanga mazishi ya heshima na salama yanayoheshimu mila za ndani huku yanalinda jamii.\n\n📞 Nini kufanya wakati wa kifo kinachoshukiwa:\n1. USIGUSE mwili\n2. Weka mbali ndugu kutoka chumbani\n3. Piga simu 08214419595 mara moja\n4. Subiri timu za afya\n5. Wape maelezo ya watu waliogusa marehemu\n\nVyanzo: MSF, WHO, Wizara ya Afya DRC",
-      "Lingala": "Kobɛta nzoto ya bato ya kokufela ezali na ntina monene na kolela Ebola.\n\n⚠️ Mpo na nini ezali mpasi:\nVirus Ebola etikalaka na nzoto ya moto ya kokufela na mikolo mwa mwa. Misala ya ndenge ya kala oyo esengelaki kobɛta, kosuka to kopesela likombo nzoto ezali likama monene ya kobɛlama.\n\n🙏 Kobatela lokumu na kobatela yo moko:\nBato ya kelasi ya santé (MSF, Ministère ya Santé) basalaka libándeli ya lokumu mpe ya bopeto oyo elatamaka misala ya mboka mpe ebatelaka community.\n\n📞 Tosala nini tango moto akufeli na bokɔngɔ:\n1. Kobɛta nzoto te\n2. Kaba bato ya libota na shambre\n3. Benga 08214419595 noki noki\n4. Lɛla bato ya santé\n5. Pesa bango mabɔkɔ ya bato oyo batangani na moto ya kokufela\n\nBisoko: MSF, OMS, Ministère ya Santé RDC"
+      "FR": "Le contact avec les dépouilles est responsable d'une part importante de la transmission d'Ebola.\n\n⚠️ Pourquoi c'est dangereux :\nLe virus Ebola reste actif dans le corps d'une personne décédée pendant plusieurs jours. Les rituels traditionnels qui impliquent de toucher, laver ou embrasser le corps représentent un risque majeur de contamination.\n\n🙏 Respecter la dignité tout en se protégeant :\nLes équipes médicales formées (MSF, Ministère de la Santé) organisent des enterrements dignes et sécurisés qui respectent les traditions locales tout en protégeant la communauté.\n\n📞 Que faire en cas de décès suspect :\n1. Ne touchez PAS le corps\n2. Éloignez les proches de la pièce\n3. Appelez immédiatement le 0821419595\n4. Attendez l'arrivée des équipes sanitaires\n5. Donnez-leur les coordonnées des personnes en contact avec le défunt\n\n💬 Un message important :\nAccepter l'aide des équipes sanitaires n'est pas une trahison de vos traditions. C'est un acte d'amour pour protéger votre famille.\n\nSources : MSF, OMS, Ministère de la Santé RDC",
+      "KiSW": "Kugusa maiti kunawajibika kwa sehemu kubwa ya maambukizi ya Ebola.\n\n⚠️ Kwa nini ni hatari:\nVirusi vya Ebola hubaki hai mwilini kwa siku kadhaa baada ya kifo. Mila za jadi zinazohusisha kugusa, kuosha au kubusu mwili zinawakilisha hatari kubwa ya kuambukizwa.\n\n🙏 Kuheshimu utu huku ukijilinda:\nTimu za matibabu zilizofunzwa (MSF, Wizara ya Afya) zinapanga mazishi ya heshima na salama yanayoheshimu mila za ndani huku yanalinda jamii.\n\n📞 Nini kufanya wakati wa kifo kinachoshukiwa:\n1. USIGUSE mwili\n2. Weka mbali ndugu kutoka chumbani\n3. Piga simu 0821419595 mara moja\n4. Subiri timu za afya\n5. Wape maelezo ya watu waliogusa marehemu\n\nVyanzo: MSF, WHO, Wizara ya Afya DRC",
+      "LG": "Kobɛta nzoto ya bato ya kokufela ezali na ntina monene na kolela Ebola.\n\n⚠️ Mpo na nini ezali mpasi:\nVirus Ebola etikalaka na nzoto ya moto ya kokufela na mikolo mwa mwa. Misala ya ndenge ya kala oyo esengelaki kobɛta, kosuka to kopesela likombo nzoto ezali likama monene ya kobɛlama.\n\n🙏 Kobatela lokumu na kobatela yo moko:\nBato ya kelasi ya santé (MSF, Ministère ya Santé) basalaka libándeli ya lokumu mpe ya bopeto oyo elatamaka misala ya mboka mpe ebatelaka community.\n\n📞 Tosala nini tango moto akufeli na bokɔngɔ:\n1. Kobɛta nzoto te\n2. Kaba bato ya libota na shambre\n3. Benga 0821419595 noki noki\n4. Lɛla bato ya santé\n5. Pesa bango mabɔkɔ ya bato oyo batangani na moto ya kokufela\n\nBisoko: MSF, OMS, Ministère ya Santé RDC"
     }
   },
   {
@@ -89,19 +89,19 @@
     "color": "#16A085",
     "icon": "medical",
     "titles": {
-      "Français": "Bundibugyo : aucun vaccin disponible",
-      "Kiswahili": "Bundibugyo: hakuna chanjo inayopatikana",
-      "Lingala": "Bundibugyo: vaccine ezali te"
+      "FR": "Bundibugyo : aucun vaccin disponible",
+      "KiSW": "Bundibugyo: hakuna chanjo inayopatikana",
+      "LG": "Bundibugyo: vaccine ezali te"
     },
     "previews": {
-      "Français": "Contrairement aux autres souches, le virus Bundibugyo n'a pas de vaccin approuvé. La prévention est votre seule arme.",
-      "Kiswahili": "Tofauti na aina nyingine, Bundibugyo haina chanjo. Kujikinga ni silaha yako pekee.",
-      "Lingala": "Kaka na Bundibugyo, vaccine ezali te. Bokatelemi ezali nzela kaka ya kobatela yo."
+      "FR": "Contrairement aux autres souches, le virus Bundibugyo n'a pas de vaccin approuvé. La prévention est votre seule arme.",
+      "KiSW": "Tofauti na aina nyingine, Bundibugyo haina chanjo. Kujikinga ni silaha yako pekee.",
+      "LG": "Kaka na Bundibugyo, vaccine ezali te. Bokatelemi ezali nzela kaka ya kobatela yo."
     },
     "contents": {
-      "Français": "⚠️ Information cruciale pour l'épidémie de 2026 :\n\nLe vaccin rVSV-ZEBOV (Ervebo), utilisé lors des épidémies précédentes en RDC (2018-2020), est efficace uniquement contre la souche Zaïre. Il n'est PAS efficace contre le virus Bundibugyo qui circule actuellement.\n\n❌ Il n'existe aujourd'hui :\n• Aucun vaccin approuvé contre Bundibugyo\n• Aucun traitement antiviral spécifique homologué\n• Aucune immunité de groupe disponible\n\n✅ Ce qui fonctionne :\n• Les gestes barrières (lavage des mains, éviter les contacts)\n• La détection et l'isolement rapides des cas\n• Les soins de soutien en CTE (réhydratation, traitement des symptômes)\n• Les anticorps monoclonaux mAb114 et REGN-EB3 peuvent aider à réduire la mortalité\n\n🔬 Recherche en cours :\nDes équipes scientifiques travaillent en urgence sur un vaccin adapté au Bundibugyo. L'OMS finance des essais cliniques accélérés.\n\nSources : Institut Pasteur, OMS, Canada Santé Publique",
-      "Kiswahili": "⚠️ Taarifa muhimu kwa janga la 2026:\n\nChanjo rVSV-ZEBOV (Ervebo), iliyotumika wakati wa majanga yaliyopita DRC (2018-2020), inafaa tu dhidi ya aina ya Zaire. HAIFAI dhidi ya virusi vya Bundibugyo vinavyoenea sasa.\n\n❌ Leo hakuna:\n• Chanjo iliyoidhinishwa dhidi ya Bundibugyo\n• Dawa maalum ya kuzuia virusi iliyoidhinishwa\n• Kinga ya kundi inayopatikana\n\n✅ Kinachofanya kazi:\n• Hatua za kujikinga (kuosha mikono, epuka mawasiliano)\n• Ugunduzi wa haraka na kutengwa kwa kesi\n• Huduma za msaada katika CTE\n• Kingamwili mAb114 na REGN-EB3 zinaweza kusaidia kupunguza vifo\n\nVyanzo: Institut Pasteur, WHO, Afya ya Umma Canada",
-      "Lingala": "⚠️ Nsango ya ntina makasi ya bokɔngɔ ya 2026:\n\nVaccine rVSV-ZEBOV (Ervebo), oyo esalemaki na bokɔngɔ ya liboso na RDC (2018-2020), esalaka kaka mpo na souche Zaïre. Esalaka TE mpo na virus Bundibugyo oyo ezali sikoyo.\n\n❌ Lelo ezali te:\n• Vaccine ya kotika mpo na Bundibugyo\n• Bolambi ya antiviral ya solo oyo etikamaki\n• Immunité ya bato nyonso\n\n✅ Oyo esalaka:\n• Makambo ya kokeba (sala mabɔkɔ, kobɛta bato te)\n• Koluka mpe kobɛnga mibéki noki\n• Matabisi ya lisungi na CTE\n• Anticorps mAb114 mpe REGN-EB3 ekoki kosalisa\n\nBisoko: Institut Pasteur, OMS, Santé Publique Canada"
+      "FR": "⚠️ Information cruciale pour l'épidémie de 2026 :\n\nLe vaccin rVSV-ZEBOV (Ervebo), utilisé lors des épidémies précédentes en RDC (2018-2020), est efficace uniquement contre la souche Zaïre. Il n'est PAS efficace contre le virus Bundibugyo qui circule actuellement.\n\n❌ Il n'existe aujourd'hui :\n• Aucun vaccin approuvé contre Bundibugyo\n• Aucun traitement antiviral spécifique homologué\n• Aucune immunité de groupe disponible\n\n✅ Ce qui fonctionne :\n• Les gestes barrières (lavage des mains, éviter les contacts)\n• La détection et l'isolement rapides des cas\n• Les soins de soutien en CTE (réhydratation, traitement des symptômes)\n• Les anticorps monoclonaux mAb114 et REGN-EB3 peuvent aider à réduire la mortalité\n\n🔬 Recherche en cours :\nDes équipes scientifiques travaillent en urgence sur un vaccin adapté au Bundibugyo. L'OMS finance des essais cliniques accélérés.\n\nSources : Institut Pasteur, OMS, Canada Santé Publique",
+      "KiSW": "⚠️ Taarifa muhimu kwa janga la 2026:\n\nChanjo rVSV-ZEBOV (Ervebo), iliyotumika wakati wa majanga yaliyopita DRC (2018-2020), inafaa tu dhidi ya aina ya Zaire. HAIFAI dhidi ya virusi vya Bundibugyo vinavyoenea sasa.\n\n❌ Leo hakuna:\n• Chanjo iliyoidhinishwa dhidi ya Bundibugyo\n• Dawa maalum ya kuzuia virusi iliyoidhinishwa\n• Kinga ya kundi inayopatikana\n\n✅ Kinachofanya kazi:\n• Hatua za kujikinga (kuosha mikono, epuka mawasiliano)\n• Ugunduzi wa haraka na kutengwa kwa kesi\n• Huduma za msaada katika CTE\n• Kingamwili mAb114 na REGN-EB3 zinaweza kusaidia kupunguza vifo\n\nVyanzo: Institut Pasteur, WHO, Afya ya Umma Canada",
+      "LG": "⚠️ Nsango ya ntina makasi ya bokɔngɔ ya 2026:\n\nVaccine rVSV-ZEBOV (Ervebo), oyo esalemaki na bokɔngɔ ya liboso na RDC (2018-2020), esalaka kaka mpo na souche Zaïre. Esalaka TE mpo na virus Bundibugyo oyo ezali sikoyo.\n\n❌ Lelo ezali te:\n• Vaccine ya kotika mpo na Bundibugyo\n• Bolambi ya antiviral ya solo oyo etikamaki\n• Immunité ya bato nyonso\n\n✅ Oyo esalaka:\n• Makambo ya kokeba (sala mabɔkɔ, kobɛta bato te)\n• Koluka mpe kobɛnga mibéki noki\n• Matabisi ya lisungi na CTE\n• Anticorps mAb114 mpe REGN-EB3 ekoki kosalisa\n\nBisoko: Institut Pasteur, OMS, Santé Publique Canada"
     }
   },
   {
@@ -110,19 +110,19 @@
     "color": "#2980B9",
     "icon": "fitness",
     "titles": {
-      "Français": "Que font les équipes médicales en CTE ?",
-      "Kiswahili": "Madaktari wanafanya nini katika CTE?",
-      "Lingala": "Bato ya santé basalaka nini na CTE?"
+      "FR": "Que font les équipes médicales en CTE ?",
+      "KiSW": "Madaktari wanafanya nini katika CTE?",
+      "LG": "Bato ya santé basalaka nini na CTE?"
     },
     "previews": {
-      "Français": "Les centres de traitement dispensent des soins de soutien : réhydratation, glycémie, symptômes. Des anticorps monoclonaux menace d'être utilisés.",
-      "Kiswahili": "Vituo vya matibabu hutoa huduma: unyevu, sukari, dalili. Kingamwili inaweza kutumika.",
-      "Lingala": "CTE bopesaka matabisi ya lisungi: mayi, sukali, bimoko. Anticorps ekoki kosalema."
+      "FR": "Les centres de traitement dispensent des soins de soutien : réhydratation, glycémie, symptômes. Des anticorps monoclonaux menace d'être utilisés.",
+      "KiSW": "Vituo vya matibabu hutoa huduma: unyevu, sukari, dalili. Kingamwili inaweza kutumika.",
+      "LG": "CTE bopesaka matabisi ya lisungi: mayi, sukali, bimoko. Anticorps ekoki kosalema."
     },
     "contents": {
-      "Français": "Les Centres de Traitement Ebola (CTE) sont des structures médicales spécialement conçues pour isoler et soigner les patients.\n\n🏥 Soins dispensés :\n• Réhydratation intensive (orale ou intraveineuse)\n• Contrôle et stabilisation de la glycémie\n• Gestion des douleurs et de la fièvre\n• Traitement des co-infections\n• Prise en charge des défaillances d'organes\n\n💉 Traitements médicamenteux disponibles :\nLes anticorps monoclonaux mAb114 et REGN-EB3, approuvés par la FDA, peuvent réduire significativement la mortalité. Leur efficacité contre Bundibugyo est en cours d'évaluation.\n\n👨‍⚕️ Personnel sur place à Bunia et Goma :\nMSF, OMS et le Ministère de la Santé RDC ont déployé des équipes médicales spécialisées depuis mai 2026. Plus de 50 tonnes de matériel médical ont été acheminées à Bunia.\n\n❤️ Soutien psychologique :\nLes survivants bénéficient d'un accompagnement psychosocial pour faciliter leur réintégration dans la communauté.\n\nSources : OMS, MSF, Institut Pasteur",
-      "Kiswahili": "Vituo vya Matibabu vya Ebola (CTE) ni miundo ya kimatibabu iliyoundwa maalum kutengana na kutibu wagonjwa.\n\n🏥 Huduma zinazotolewa:\n• Unyevu mkubwa (mdomo au mishipa)\n• Udhibiti na ustabilishaji wa sukari\n• Usimamizi wa maumivu na homa\n• Matibabu ya maambukizi ya pamoja\n• Kushughulikia kushindwa kwa viungo\n\n💉 Dawa zinazopatikana:\nKingamwili mAb114 na REGN-EB3, zilizoidhinishwa na FDA, zinaweza kupunguza vifo. Ufanisi wao dhidi ya Bundibugyo unatathminiwa.\n\nVyanzo: WHO, MSF, Institut Pasteur",
-      "Lingala": "CTE (Centres ya Bolambi Ebola) ezali bisika ya santé oyo esalemi kaka mpo na kobɛnga mpe kobolamisa bato ya maladi.\n\n🏥 Matabisi oyo bopesaka:\n• Mayi mingi (na monoko to na mishipa)\n• Kontrole mpe stabilisation ya sukali\n• Bolambi ya mawa mpe fiɛvre\n• Bolambi ya maladi mosusu\n• Kolanda biyelo ya nzoto\n\n💉 Bibolamisi oyo ezali:\nAnticorps mAb114 mpe REGN-EB3, oyo FDA etikaki, ekoki kokata mingi lifo. Nguya na bango mpo na Bundibugyo ezali na kelasi.\n\nBisoko: OMS, MSF, Institut Pasteur"
+      "FR": "Les Centres de Traitement Ebola (CTE) sont des structures médicales spécialement conçues pour isoler et soigner les patients.\n\n🏥 Soins dispensés :\n• Réhydratation intensive (orale ou intraveineuse)\n• Contrôle et stabilisation de la glycémie\n• Gestion des douleurs et de la fièvre\n• Traitement des co-infections\n• Prise en charge des défaillances d'organes\n\n💉 Traitements médicamenteux disponibles :\nLes anticorps monoclonaux mAb114 et REGN-EB3, approuvés par la FDA, peuvent réduire significativement la mortalité. Leur efficacité contre Bundibugyo est en cours d'évaluation.\n\n👨‍⚕️ Personnel sur place à Bunia et Goma :\nMSF, OMS et le Ministère de la Santé RDC ont déployé des équipes médicales spécialisées depuis mai 2026. Plus de 50 tonnes de matériel médical ont été acheminées à Bunia.\n\n❤️ Soutien psychologique :\nLes survivants bénéficient d'un accompagnement psychosocial pour faciliter leur réintégration dans la communauté.\n\nSources : OMS, MSF, Institut Pasteur",
+      "KiSW": "Vituo vya Matibabu vya Ebola (CTE) ni miundo ya kimatibabu iliyoundwa maalum kutengana na kutibu wagonjwa.\n\n🏥 Huduma zinazotolewa:\n• Unyevu mkubwa (mdomo au mishipa)\n• Udhibiti na ustabilishaji wa sukari\n• Usimamizi wa maumivu na homa\n• Matibabu ya maambukizi ya pamoja\n• Kushughulikia kushindwa kwa viungo\n\n💉 Dawa zinazopatikana:\nKingamwili mAb114 na REGN-EB3, zilizoidhinishwa na FDA, zinaweza kupunguza vifo. Ufanisi wao dhidi ya Bundibugyo unatathminiwa.\n\nVyanzo: WHO, MSF, Institut Pasteur",
+      "LG": "CTE (Centres ya Bolambi Ebola) ezali bisika ya santé oyo esalemi kaka mpo na kobɛnga mpe kobolamisa bato ya maladi.\n\n🏥 Matabisi oyo bopesaka:\n• Mayi mingi (na monoko to na mishipa)\n• Kontrole mpe stabilisation ya sukali\n• Bolambi ya mawa mpe fiɛvre\n• Bolambi ya maladi mosusu\n• Kolanda biyelo ya nzoto\n\n💉 Bibolamisi oyo ezali:\nAnticorps mAb114 mpe REGN-EB3, oyo FDA etikaki, ekoki kokata mingi lifo. Nguya na bango mpo na Bundibugyo ezali na kelasi.\n\nBisoko: OMS, MSF, Institut Pasteur"
     }
   },
   {
@@ -131,19 +131,19 @@
     "color": "#2980B9",
     "icon": "location",
     "titles": {
-      "Français": "Où se faire soigner à Bunia et Goma ?",
-      "Kiswahili": "Wapi kupata matibabu Bunia na Goma?",
-      "Lingala": "Wapi kokenda na bolambi na Bunia mpe Goma?"
+      "FR": "Où se faire soigner à Bunia et Goma ?",
+      "KiSW": "Wapi kupata matibabu Bunia na Goma?",
+      "LG": "Wapi kokenda na bolambi na Bunia mpe Goma?"
     },
     "previews": {
-      "Français": "CTE de Bunia et CTE de Goma. L'OMS et MSF ont déployé du personnel depuis le 12 mai. Des dizaines de tonnes de matériel acheminées.",
-      "Kiswahili": "CTE ya Bunia na CTE ya Goma. WHO na MSF wameweka wafanyakazi tangu Mei 12.",
-      "Lingala": "CTE ya Bunia mpe CTE ya Goma. OMS mpe MSF batindaki bato banda 12 mai."
+      "FR": "CTE de Bunia et CTE de Goma. L'OMS et MSF ont déployé du personnel depuis le 12 mai. Des dizaines de tonnes de matériel acheminées.",
+      "KiSW": "CTE ya Bunia na CTE ya Goma. WHO na MSF wameweka wafanyakazi tangu Mei 12.",
+      "LG": "CTE ya Bunia mpe CTE ya Goma. OMS mpe MSF batindaki bato banda 12 mai."
     },
     "contents": {
-      "Français": "📍 Centres de Traitement Ebola actifs :\n\n🏥 CTE de Bunia\nAdresse : Avenue Kindu, Bunia (Ituri)\nTél : 08214419595\nStatut : Ouvert 24h/24 — Personnel OMS + MSF déployé\nNote : Épicentre de l'épidémie. Matériel renforcé depuis mai 2026.\n\n🏥 CTE de Goma\nAdresse : Quartier Himbi, Goma (Nord-Kivu)\nTél : 08214419595\nStatut : Ouvert — Cas confirmé le 17 mai 2026\n\n🏥 Hôpital Général de Référence de Bunia\nAdresse : Avenue de l'Hôpital, Bunia\nTél : 08214419595\nStatut : Triage et orientation vers le CTE\n\n⚠️ Important :\nN'allez pas directement à l'hôpital si vous suspectez Ebola. Appelez d'abord le 08214419595. Une équipe viendra vous chercher en toute sécurité.\n\n📦 Matériel disponible :\nPlus de 50 tonnes de matériel médical ont été acheminées à Bunia par l'OMS et l'UNICEF depuis le début de l'épidémie.\n\nSources : OMS, MSF, UNICEF",
-      "Kiswahili": "📍 Vituo vya Matibabu vya Ebola vilivyo hai:\n\n🏥 CTE ya Bunia\nAnwani: Avenue Kindu, Bunia (Ituri)\nSimu: 08214419595\nHali: Wazi masaa 24 — Wafanyakazi wa WHO + MSF wamewekwa\n\n🏥 CTE ya Goma\nAnwani: Mtaa wa Himbi, Goma (Nord-Kivu)\nSimu: 08214419595\nHali: Wazi — Kesi ilithibitishwa tarehe 17 Mei 2026\n\n⚠️ Muhimu:\nUsiende hospitali moja kwa moja ukishuku Ebola. Kwanza piga simu 08214419595. Timu itakuja kukuchukua kwa usalama.\n\nVyanzo: WHO, MSF, UNICEF",
-      "Lingala": "📍 CTE ya Bolambi Ebola oyo ezali na mosala:\n\n🏥 CTE ya Bunia\nAdrɛsi: Avenue Kindu, Bunia (Ituri)\nTel: 08214419595\nEtat: Efungwami ngonga 24 — Bato ya OMS + MSF bazali\n\n🏥 CTE ya Goma\nAdrɛsi: Quartier Himbi, Goma (Nord-Kivu)\nTel: 08214419595\nEtat: Efungwami — Mibéki ya solo etikamaki 17 mai 2026\n\n⚠️ Ntina:\nOkei te noki noki na lopitalo soki otali Ebola. Liboso benga 08214419595. Ekipe ekoya kozwa yo na bopeto.\n\nBisoko: OMS, MSF, UNICEF"
+      "FR": "📍 Centres de Traitement Ebola actifs :\n\n🏥 CTE de Bunia\nAdresse : Avenue Kindu, Bunia (Ituri)\nTél : 0821419595\nStatut : Ouvert 24h/24 — Personnel OMS + MSF déployé\nNote : Épicentre de l'épidémie. Matériel renforcé depuis mai 2026.\n\n🏥 CTE de Goma\nAdresse : Quartier Himbi, Goma (Nord-Kivu)\nTél : 0821419595\nStatut : Ouvert — Cas confirmé le 17 mai 2026\n\n🏥 Hôpital Général de Référence de Bunia\nAdresse : Avenue de l'Hôpital, Bunia\nTél : 0821419595\nStatut : Triage et orientation vers le CTE\n\n⚠️ Important :\nN'allez pas directement à l'hôpital si vous suspectez Ebola. Appelez d'abord le 0821419595. Une équipe viendra vous chercher en toute sécurité.\n\n📦 Matériel disponible :\nPlus de 50 tonnes de matériel médical ont été acheminées à Bunia par l'OMS et l'UNICEF depuis le début de l'épidémie.\n\nSources : OMS, MSF, UNICEF",
+      "KiSW": "📍 Vituo vya Matibabu vya Ebola vilivyo hai:\n\n🏥 CTE ya Bunia\nAnwani: Avenue Kindu, Bunia (Ituri)\nSimu: 0821419595\nHali: Wazi masaa 24 — Wafanyakazi wa WHO + MSF wamewekwa\n\n🏥 CTE ya Goma\nAnwani: Mtaa wa Himbi, Goma (Nord-Kivu)\nSimu: 0821419595\nHali: Wazi — Kesi ilithibitishwa tarehe 17 Mei 2026\n\n⚠️ Muhimu:\nUsiende hospitali moja kwa moja ukishuku Ebola. Kwanza piga simu 0821419595. Timu itakuja kukuchukua kwa usalama.\n\nVyanzo: WHO, MSF, UNICEF",
+      "LG": "📍 CTE ya Bolambi Ebola oyo ezali na mosala:\n\n🏥 CTE ya Bunia\nAdrɛsi: Avenue Kindu, Bunia (Ituri)\nTel: 0821419595\nEtat: Efungwami ngonga 24 — Bato ya OMS + MSF bazali\n\n🏥 CTE ya Goma\nAdrɛsi: Quartier Himbi, Goma (Nord-Kivu)\nTel: 0821419595\nEtat: Efungwami — Mibéki ya solo etikamaki 17 mai 2026\n\n⚠️ Ntina:\nOkei te noki noki na lopitalo soki otali Ebola. Liboso benga 0821419595. Ekipe ekoya kozwa yo na bopeto.\n\nBisoko: OMS, MSF, UNICEF"
     }
   },
   {
@@ -152,19 +152,19 @@
     "color": "#8E44AD",
     "icon": "globe",
     "titles": {
-      "Français": "17e épidémie d'Ebola en RDC — Bilan au 20 mai 2026",
-      "Kiswahili": "Janga la 17 la Ebola DRC — Tathmini ya Mei 20, 2026",
-      "Lingala": "Bokɔngɔ ya 17 ya Ebola na RDC — Bilan ya 20 mai 2026"
+      "FR": "17e épidémie d'Ebola en RDC — Bilan au 20 mai 2026",
+      "KiSW": "Janga la 17 la Ebola DRC — Tathmini ya Mei 20, 2026",
+      "LG": "Bokɔngɔ ya 17 ya Ebola na RDC — Bilan ya 20 mai 2026"
     },
     "previews": {
-      "Français": "51 cas confirmés, 500+ suspects, 100+ décès. Provinces touchées : Ituri, Nord-Kivu, Sud-Kivu. Un cas confirmé en Ouganda.",
-      "Kiswahili": "Kesi 51 zilizothibitishwa, 500+ zinazoshukiwa, 100+ vifo. Ouganda: kesi 1.",
-      "Lingala": "Mibéki 51 ya solo, 500+ ya kokeka, bato 100+ bakufi. Ouganda: mibéki 1."
+      "FR": "51 cas confirmés, 500+ suspects, 100+ décès. Provinces touchées : Ituri, Nord-Kivu, Sud-Kivu. Un cas confirmé en Ouganda.",
+      "KiSW": "Kesi 51 zilizothibitishwa, 500+ zinazoshukiwa, 100+ vifo. Ouganda: kesi 1.",
+      "LG": "Mibéki 51 ya solo, 500+ ya kokeka, bato 100+ bakufi. Ouganda: mibéki 1."
     },
     "contents": {
-      "Français": "📊 Bilan officiel au 20 mai 2026 (Sources : OMS, Africa CDC, Santé Publique Canada) :\n\n🔴 Chiffres clés :\n• 51 cas confirmés en laboratoire\n• ~600 cas suspects\n• 100+ décès (taux de létalité ~50%)\n• Provinces touchées : Ituri, Nord-Kivu, Sud-Kivu\n• Villes affectées : Bunia, Goma, Butembo, Bukavu\n• 1 cas confirmé en Ouganda (décédé le 14 mai)\n\n📍 Épicentre :\nL'Ituri est l'épicentre. Bunia, capitale de l'Ituri, est la ville la plus touchée. La propagation vers Goma (Nord-Kivu) a déclenché l'alerte internationale de l'OMS le 17 mai.\n\n🦠 Le virus Bundibugyo :\nC'est la 3e épidémie mondiale causée par cette souche spécifique, après l'Ouganda (2007-2008) et la RDC (2012). La souche actuelle est génétiquement distincte des précédentes, suggérant un nouveau passage de l'animal à l'homme.\n\n⚠️ Facteurs aggravants :\n• Conflits armés en Ituri (intensifiés fin 2025)\n• Déplacement de 100 000+ personnes\n• Zone minière avec forte mobilité\n• Aucun vaccin disponible contre Bundibugyo\n• Transmission documentée au personnel de santé\n\nSources : OMS, Africa CDC, Santé Publique Canada, MSF, Oxfam",
-      "Kiswahili": "📊 Tathmini rasmi ya Mei 20, 2026:\n\n🔴 Takwimu kuu:\n• Kesi 51 zilizothibitishwa maabara\n• ~600 kesi zinazoshukiwa\n• Vifo 100+ (kiwango ~50%)\n• Mikoa iliyoathirika: Ituri, Nord-Kivu, Sud-Kivu\n• Miji iliyoathirika: Bunia, Goma, Butembo, Bukavu\n• Kesi 1 iliyothibitishwa Uganda (alifariki Mei 14)\n\n🦠 Virusi vya Bundibugyo:\nHili ni janga la 3 la kimataifa linalosababishwa na aina hii, baada ya Uganda (2007-2008) na DRC (2012).\n\nVyanzo: WHO, Africa CDC, Afya ya Umma Canada, MSF",
-      "Lingala": "📊 Bilan ya solo ya 20 mai 2026:\n\n🔴 Manumba ya ntina:\n• Mibéki 51 oyo laboratoire etikaki\n• ~600 mibéki ya kokeka\n• Bato 100+ bakufi (~50%)\n• Provinces: Ituri, Nord-Kivu, Sud-Kivu\n• Villes: Bunia, Goma, Butembo, Bukavu\n• Mibéki 1 na Ouganda (akufaki 14 mai)\n\n🦠 Virus Bundibugyo:\nEzali bokɔngɔ ya 3 ya mokili oyo souche oyo esalaka, sima ya Ouganda (2007-2008) mpe RDC (2012).\n\nBisoko: OMS, Africa CDC, Santé Publique Canada, MSF"
+      "FR": "📊 Bilan officiel au 20 mai 2026 (Sources : OMS, Africa CDC, Santé Publique Canada) :\n\n🔴 Chiffres clés :\n• 51 cas confirmés en laboratoire\n• ~600 cas suspects\n• 100+ décès (taux de létalité ~50%)\n• Provinces touchées : Ituri, Nord-Kivu, Sud-Kivu\n• Villes affectées : Bunia, Goma, Butembo, Bukavu\n• 1 cas confirmé en Ouganda (décédé le 14 mai)\n\n📍 Épicentre :\nL'Ituri est l'épicentre. Bunia, capitale de l'Ituri, est la ville la plus touchée. La propagation vers Goma (Nord-Kivu) a déclenché l'alerte internationale de l'OMS le 17 mai.\n\n🦠 Le virus Bundibugyo :\nC'est la 3e épidémie mondiale causée par cette souche spécifique, après l'Ouganda (2007-2008) et la RDC (2012). La souche actuelle est génétiquement distincte des précédentes, suggérant un nouveau passage de l'animal à l'homme.\n\n⚠️ Facteurs aggravants :\n• Conflits armés en Ituri (intensifiés fin 2025)\n• Déplacement de 100 000+ personnes\n• Zone minière avec forte mobilité\n• Aucun vaccin disponible contre Bundibugyo\n• Transmission documentée au personnel de santé\n\nSources : OMS, Africa CDC, Santé Publique Canada, MSF, Oxfam",
+      "KiSW": "📊 Tathmini rasmi ya Mei 20, 2026:\n\n🔴 Takwimu kuu:\n• Kesi 51 zilizothibitishwa maabara\n• ~600 kesi zinazoshukiwa\n• Vifo 100+ (kiwango ~50%)\n• Mikoa iliyoathirika: Ituri, Nord-Kivu, Sud-Kivu\n• Miji iliyoathirika: Bunia, Goma, Butembo, Bukavu\n• Kesi 1 iliyothibitishwa Uganda (alifariki Mei 14)\n\n🦠 Virusi vya Bundibugyo:\nHili ni janga la 3 la kimataifa linalosababishwa na aina hii, baada ya Uganda (2007-2008) na DRC (2012).\n\nVyanzo: WHO, Africa CDC, Afya ya Umma Canada, MSF",
+      "LG": "📊 Bilan ya solo ya 20 mai 2026:\n\n🔴 Manumba ya ntina:\n• Mibéki 51 oyo laboratoire etikaki\n• ~600 mibéki ya kokeka\n• Bato 100+ bakufi (~50%)\n• Provinces: Ituri, Nord-Kivu, Sud-Kivu\n• Villes: Bunia, Goma, Butembo, Bukavu\n• Mibéki 1 na Ouganda (akufaki 14 mai)\n\n🦠 Virus Bundibugyo:\nEzali bokɔngɔ ya 3 ya mokili oyo souche oyo esalaka, sima ya Ouganda (2007-2008) mpe RDC (2012).\n\nBisoko: OMS, Africa CDC, Santé Publique Canada, MSF"
     }
   },
   {
@@ -173,19 +173,19 @@
     "color": "#8E44AD",
     "icon": "warning",
     "titles": {
-      "Français": "Pourquoi la riposte est complexe à Bunia ?",
-      "Kiswahili": "Kwa nini majibu ni magumu Bunia?",
-      "Lingala": "Mpo na nini lisambisi ezali mpasi na Bunia?"
+      "FR": "Pourquoi la riposte est complexe à Bunia ?",
+      "KiSW": "Kwa nini majibu ni magumu Bunia?",
+      "LG": "Mpo na nini lisambisi ezali mpasi na Bunia?"
     },
     "previews": {
-      "Français": "Conflits armés, 100 000 déplacés, zones minières difficiles d'accès et résistance communautaire compliquent la riposte.",
-      "Kiswahili": "Migogoro, watu 100,000 waliohama, maeneo ya migodi na upinzani wa jamii vinazuia majibu.",
-      "Lingala": "Bitumba, bato 100 000 bakobimaki, bisika ya bilanga mpasi, community epekisi lisambisi."
+      "FR": "Conflits armés, 100 000 déplacés, zones minières difficiles d'accès et résistance communautaire compliquent la riposte.",
+      "KiSW": "Migogoro, watu 100,000 waliohama, maeneo ya migodi na upinzani wa jamii vinazuia majibu.",
+      "LG": "Bitumba, bato 100 000 bakobimaki, bisika ya bilanga mpasi, community epekisi lisambisi."
     },
     "contents": {
-      "Français": "L'OMS et MSF ont qualifié la situation de \"extrêmement préoccupante\" en raison de plusieurs facteurs cumulés.\n\n⚔️ Facteur 1 — Conflits armés :\nLa province de l'Ituri fait face à une intensification des conflits armés depuis fin 2025. Les combats ont entraîné le déplacement de plus de 100 000 personnes, créant des conditions idéales pour la propagation du virus.\n\n⛏️ Facteur 2 — Zone minière :\nL'Ituri est une région aurifère caractérisée par d'intenses mouvements de population. Des milliers de mineurs circulent quotidiennement entre les villages et les sites miniers, facilitant la transmission.\n\n🏘️ Facteur 3 — Résistance communautaire :\nCertaines communautés refusent les enterrements sécurisés et les mesures de quarantaine, en raison de la méfiance envers les autorités ou des croyances culturelles. L'engagement communautaire est jugé \"essentiel\" par l'OMS.\n\n📡 Facteur 4 — Accès difficile :\nLes zones les plus touchées sont peu accessibles, ce qui limite le transport des échantillons vers les laboratoires et retarde les diagnostics. Peu d'échantillons ont été testés, les bilans reposent sur des cas suspects.\n\n💰 Facteur 5 — Sous-financement :\nEn 2025, l'aide internationale n'a couvert que 27% des besoins humanitaires en RDC. Les structures sanitaires manquent chroniquement de moyens.\n\nSources : OMS, MSF, Oxfam, Radio Okapi",
-      "Kiswahili": "WHO na MSF wameelezea hali kuwa \"ya wasiwasi sana\" kutokana na mambo kadhaa yaliyokusanyika.\n\n⚔️ Sababu 1 — Migogoro ya kivita:\nMkoa wa Ituri umekabiliwa na kuongezeka kwa migogoro tangu mwishoni mwa 2025, ukisababisha uhamisho wa zaidi ya watu 100,000.\n\n⛏️ Sababu 2 — Eneo la migodi:\nIturi ni eneo la dhahabu lenye harakati kubwa za watu. Maelfu ya wachimbaji husafiri kila siku kati ya vijiji na tovuti za madini.\n\n🏘️ Sababu 3 — Upinzani wa jamii:\nBaadhi ya jamii zinakataa mazishi salama na hatua za karantini, kwa sababu ya kutokuamini mamlaka au imani za kitamaduni.\n\nVyanzo: WHO, MSF, Oxfam",
-      "Lingala": "OMS mpe MSF balobaki situation ezali \"mpasi makasi\" mpo na makambo mingi oyo ekusanaki.\n\n⚔️ Ntina 1 — Bitumba:\nProvince ya Ituri ezali na bitumba oyo ekomaki makasi banda suka ya 2025, esilisaki kobimisa bato 100 000+.\n\n⛏️ Ntina 2 — Bisika ya bilanga ya or:\nIturi ezali esika ya or oyo bato bazali kotambolotambola mingi. Bamineurs na nkoto bazali kokende na koya kati ya villes mpe bisika ya bilanga.\n\n🏘️ Ntina 3 — Community epekisi:\nBamoko ya bato bapekisi libándeli ya bopeto mpe quarantaine, mpo na kosilika na bakonzi to na mikano ya culture.\n\nBisoko: OMS, MSF, Oxfam"
+      "FR": "L'OMS et MSF ont qualifié la situation de \"extrêmement préoccupante\" en raison de plusieurs facteurs cumulés.\n\n⚔️ Facteur 1 — Conflits armés :\nLa province de l'Ituri fait face à une intensification des conflits armés depuis fin 2025. Les combats ont entraîné le déplacement de plus de 100 000 personnes, créant des conditions idéales pour la propagation du virus.\n\n⛏️ Facteur 2 — Zone minière :\nL'Ituri est une région aurifère caractérisée par d'intenses mouvements de population. Des milliers de mineurs circulent quotidiennement entre les villages et les sites miniers, facilitant la transmission.\n\n🏘️ Facteur 3 — Résistance communautaire :\nCertaines communautés refusent les enterrements sécurisés et les mesures de quarantaine, en raison de la méfiance envers les autorités ou des croyances culturelles. L'engagement communautaire est jugé \"essentiel\" par l'OMS.\n\n📡 Facteur 4 — Accès difficile :\nLes zones les plus touchées sont peu accessibles, ce qui limite le transport des échantillons vers les laboratoires et retarde les diagnostics. Peu d'échantillons ont été testés, les bilans reposent sur des cas suspects.\n\n💰 Facteur 5 — Sous-financement :\nEn 2025, l'aide internationale n'a couvert que 27% des besoins humanitaires en RDC. Les structures sanitaires manquent chroniquement de moyens.\n\nSources : OMS, MSF, Oxfam, Radio Okapi",
+      "KiSW": "WHO na MSF wameelezea hali kuwa \"ya wasiwasi sana\" kutokana na mambo kadhaa yaliyokusanyika.\n\n⚔️ Sababu 1 — Migogoro ya kivita:\nMkoa wa Ituri umekabiliwa na kuongezeka kwa migogoro tangu mwishoni mwa 2025, ukisababisha uhamisho wa zaidi ya watu 100,000.\n\n⛏️ Sababu 2 — Eneo la migodi:\nIturi ni eneo la dhahabu lenye harakati kubwa za watu. Maelfu ya wachimbaji husafiri kila siku kati ya vijiji na tovuti za madini.\n\n🏘️ Sababu 3 — Upinzani wa jamii:\nBaadhi ya jamii zinakataa mazishi salama na hatua za karantini, kwa sababu ya kutokuamini mamlaka au imani za kitamaduni.\n\nVyanzo: WHO, MSF, Oxfam",
+      "LG": "OMS mpe MSF balobaki situation ezali \"mpasi makasi\" mpo na makambo mingi oyo ekusanaki.\n\n⚔️ Ntina 1 — Bitumba:\nProvince ya Ituri ezali na bitumba oyo ekomaki makasi banda suka ya 2025, esilisaki kobimisa bato 100 000+.\n\n⛏️ Ntina 2 — Bisika ya bilanga ya or:\nIturi ezali esika ya or oyo bato bazali kotambolotambola mingi. Bamineurs na nkoto bazali kokende na koya kati ya villes mpe bisika ya bilanga.\n\n🏘️ Ntina 3 — Community epekisi:\nBamoko ya bato bapekisi libándeli ya bopeto mpe quarantaine, mpo na kosilika na bakonzi to na mikano ya culture.\n\nBisoko: OMS, MSF, Oxfam"
     }
   }
 ]

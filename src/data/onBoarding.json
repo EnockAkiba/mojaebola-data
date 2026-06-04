@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Bienvenue sur MojaEbola",
+        "description": "Signalez rapidement les cas suspects, protégez votre famille et participez à la lutte contre Ebola dans votre communauté.",
+        "image": "assets/images/drapeauEbola.webp",
+        "color": "#D64545",
+        "icon": "shield-checkmark"
+    },
+    {
+        "id": "2",
+        "title": "Surveillez les zones à risque",
+        "description": "Consultez les alertes sanitaires, les zones affectées et les centres Ebola proches de vous en temps réel.",
+        "image": "assets/images/ZoneRisque.png",
+        "color": "#F39C12",
+        "icon": "map"
+    },
+    {
+        "id": "3",
+        "title": "Informez et protégez votre communauté",
+        "description": "Découvrez les gestes essentiels, les mesures de prévention et les numéros d’urgence pour sauver des vies.",
+        "image": "assets/images/Sensibilisation.jpg",
+        "color": "#16A085",
+        "icon": "medkit"
+    }
+]

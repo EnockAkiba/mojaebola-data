@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "lastUpdate": "2026-06-02",
+  "virus": "Bundibugyo",
+  "vaccineAvailable": false,
+  "globalStats": {
+    "confirmed": 51,
+    "suspected": 500,
+    "deaths": 100
+  },
+  "zones": {
+    "red": [
+      { "lat": 1.8534, "lng": 30.0419, "radius": 9000, "label": "🔴 Mongbwalu — Épicentre (Ituri)" },
+      { "lat": 1.7200, "lng": 30.0700, "radius": 7000, "label": "🔴 Rwampara — Cas confirmés (Ituri)" },
+      { "lat": 1.5641, "lng": 30.1914, "radius": 10000, "label": "🔴 Bunia — Zone rouge (Ituri)" },
+      { "lat": -1.6596, "lng": 29.2194, "radius": 8000, "label": "🔴 Goma — Cas confirmé (Nord-Kivu)" },
+      { "lat": -0.1336, "lng": 29.2438, "radius": 6000, "label": "🔴 Butembo — Cas suspects (Nord-Kivu)" },
+      { "lat": -2.5067, "lng": 28.8600, "radius": 7000, "label": "🔴 Bukavu — Cas importé (Sud-Kivu)" }
+    ],
+    "orange": [
+      { "lat": 1.9500, "lng": 30.3000, "radius": 12000, "label": "🟠 Djugu — Zone sous surveillance (Ituri)" },
+      { "lat": 1.3000, "lng": 30.5000, "radius": 8000, "label": "🟠 Iga Barrière — Zone orange (Ituri)" },
+      { "lat": 0.0580, "lng": 29.4607, "radius": 9000, "label": "🟠 Lubero — Surveillance (Nord-Kivu)" },
+      { "lat": -1.9400, "lng": 29.0000, "radius": 7000, "label": "🟠 Masisi — Surveillance (Nord-Kivu)" },
+      { "lat": 0.3136, "lng": 32.5811, "radius": 15000, "label": "🟠 Kampala — 9 cas confirmés (Ouganda)" }
+    ]
+  }
+}
