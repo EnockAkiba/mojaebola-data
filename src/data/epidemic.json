@@ -4,9 +4,9 @@
   "virus": "Bundibugyo",
   "vaccineAvailable": false,
   "globalStats": {
-    "confirmed": 51,
-    "suspected": 500,
-    "deaths": 100
+    "confirmed": 381,
+    "suspected": 930,
+    "deaths": 64
   },
   "zones": {
     "red": [

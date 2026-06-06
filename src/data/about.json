@@ -1,5 +1,5 @@
 {
-"version": 1,
+"version": "1.0.1",
 "lastUpdate": "2026-06-02",
 "provenance": "Les informations présentées dans MojaEbola proviennent de sources officielles reconnues dans le domaine de la santé publique, notamment l’Organisation mondiale de la Santé (OMS) et les Centers for Disease Control and Prevention (CDC). Les contenus sont régulièrement mis à jour via le dépôt de données MojaEbola-data et peuvent être conservés localement afin de permettre une consultation même en l’absence de connexion Internet.",
 "sources": [
@@ -17,11 +17,11 @@
 }
 ],
 "author": {
-"name": "AKIBA WANJUMBI Enock",
-"role": "Développeur et mainteneur de l’application",
+"name": "MojaTech",
+"role": "MojaTech est une Startup technologique spécialisée dans le développement des applications mobiles, des plateforme web et de solutions numériques innovantes repondant aux besoins de la communautés africaines.",
 "bio": "MojaEbola a été développée pour faciliter l’accès à des informations fiables sur la maladie à virus Ebola, renforcer la sensibilisation des communautés et promouvoir les bonnes pratiques de prévention.",
 "mission": "Notre objectif est de rendre l’information sanitaire accessible à tous, même dans les zones à connectivité limitée."
 },
 "disclaimer": "Cette application est un outil d’information et de sensibilisation. Elle ne remplace pas les conseils, diagnostics ou traitements fournis par des professionnels de santé qualifiés.",
-"contact": "[mojatechsarl@gmail.com](mailto:contact@mojatech.org)"
+"contact": "[mojatechsarl@gmail.com] +243 973722401"
 }
